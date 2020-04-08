@@ -1,21 +1,27 @@
 export enum Colors {
   TEA_ROSE = '#f97e77',
-  PEWTER_BLUE = '#8bbcb1',
   SPANISH_PINK = '#f9c0bd',
-  LINEN = '#fcece3',
+  BEGONIA = '#f56476',
+  BLUE_GREEN = '#0fa3b1',
+  SHINY_SHAMROCK = '#60b269',
   MAXIMUM_YELLOW_RED = '#f9b84f',
-  LUST = '#e8281e',
+  ENGLISH_VERMILLION = '#d33f49',
 
   PRIMARY = '#f97e77', // TEA_ROSE
-  SECONDARY = '#8bbcb1', // PEWTER_BLUE
-  TERTIARY = '#f9c0bd', // SPANISH_PINK
+  PRIMARY_LIGHT = '#f9c0bd', // SPANISH_PINK
+  PRIMARY_DARK = '#f56476', // BEGONIA
+  SECONDARY = '#0fa3b1', // BLUE_GREEN
 
-  GREY_DARKEST = '#39384d',
-  GREY_DARK = '#504f61',
-  GREY_LIGHTEST = '#fcece3', // LINEN
+  GREY_100 = '#27242d',
+  GREY_090 = '#3d3947',
+  GREY_080 = '#5d576b',
+  GREY_050 = '#97949e',
+  GREY_030 = '#c7c4ce',
+  GREY_010 = '#f5f4f6',
 
+  SUCCESS = '#60b269', // SHINY_SHAMROCK
   WARNING = '#f9b84f', // MAXIMUM_YELLOW_RED
-  ERROR = '#e8281e', // LUST
+  ERROR = '#d33f49', // ENGLISH_VERMILLION
 
   BLACK = '#000000',
   WHITE = '#ffffff'

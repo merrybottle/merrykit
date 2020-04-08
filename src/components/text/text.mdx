@@ -1,0 +1,66 @@
+---
+name: Text
+route: /
+---
+
+import { Playground, Props } from 'docz';
+import {
+  Masthead,
+  H1,
+  H2,
+  H3,
+  H4,
+  Body
+} from './';
+
+# Text
+
+<Props of={Masthead} />
+<Props of={H1} />
+<Props of={H2} />
+<Props of={H3} />
+<Props of={H4} />
+<Props of={Body} />
+
+## Masthead
+
+<Playground>
+  <Masthead>The quick brown fox jumps over the lazy dog</Masthead>
+</Playground>
+
+## H1
+
+<Playground>
+  <H1>The quick brown fox jumps over the lazy dog</H1>
+</Playground>
+
+## H2
+
+<Playground>
+  <H2>The quick brown fox jumps over the lazy dog</H2>
+</Playground>
+
+## H3
+
+<Playground>
+  <H3>The quick brown fox jumps over the lazy dog</H3>
+</Playground>
+
+## H4
+
+<Playground>
+  <H4>The quick brown fox jumps over the lazy dog</H4>
+</Playground>
+
+## Body
+
+<Playground>
+  <Body>The quick brown fox jumps over the lazy dog</Body>
+</Playground>
+
+## Small
+
+<Playground>
+  <H4><small>The quick brown fox</small></H4>
+  <Body><small>Jumps over the lazy dog</small></Body>
+</Playground>
