@@ -2,21 +2,7 @@ import * as CSS from 'csstype';
 
 export const BASE_SPACING = 8;
 
-export enum Spacing {
-  XXXX_SMALL = 2,
-  XXX_SMALL = 4,
-  XX_SMALL = 8,
-  X_SMALL = 12,
-  SMALL = 16,
-  MEDIUM = 24,
-  LARGE = 32,
-  X_LARGE = 40,
-  XX_LARGE = 48,
-  XXX_LARGE = 56,
-  XXXX_LARGE = 64,
-  AUTO = 'auto',
-  NONE = 0
-}
+type Spacing = number | 'auto';
 
 export interface SpacingProps {
   marginTop?: Spacing;
@@ -36,7 +22,7 @@ export interface SpacingProps {
 }
 
 const getSpacingCSSString = (spacing: Spacing | Spacing[]) => {
-  const format = (value: Spacing) => typeof value === 'number' ? `${value}px` : value;
+  const format = (value: Spacing) => typeof value === 'number' ? `${value * BASE_SPACING}px` : value;
 
   return typeof spacing === 'object'
     ? spacing.reduce((acc, value, index) => `${index !== 0 ? ' ' : ''}${format(value)}`, '')
