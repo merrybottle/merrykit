@@ -1,4 +1,4 @@
-import * as CSS from 'csstype';
+import { css } from 'styled-components';
 
 export const BASE_SPACING = 8;
 
@@ -29,43 +29,50 @@ const getSpacingCSSString = (spacing: Spacing | Spacing[]) => {
     : format(spacing);
 };
 
-export const spacing2css = (spacingProps: SpacingProps) => {
-  const spacingCss: CSS.Properties = {};
-
-  Object.entries(spacingProps).forEach(([type, value]) => {
+export const spacing2css = (spacingProps: SpacingProps) => (
+  Object.entries(spacingProps).map(([type, value]) => {
     const cssValueString = getSpacingCSSString(value);
 
     switch (type) {
       case 'marginHorizontal':
-        spacingCss.marginLeft = cssValueString;
-        spacingCss.marginRight = cssValueString;
-        break;
+        return `
+          margin-left: ${cssValueString};
+          margin-right: ${cssValueString};
+        `;
       case 'paddingHorizontal':
-        spacingCss.paddingLeft = cssValueString;
-        spacingCss.paddingRight = cssValueString;
-        break;
+        return `
+          padding-left: ${cssValueString};
+          padding-right: ${cssValueString};
+        `;
       case 'marginVertical':
-        spacingCss.marginTop = cssValueString;
-        spacingCss.marginBottom = cssValueString;
-        break;
+        return `
+          margin-top: ${cssValueString};
+          margin-bottom: ${cssValueString};
+        `;
       case 'paddingVertical':
-        spacingCss.paddingTop = cssValueString;
-        spacingCss.paddingBottom = cssValueString;
-        break;
-      case 'margin':
+        return `
+          padding-top: ${cssValueString};
+          padding-bottom: ${cssValueString};
+        `;
       case 'marginLeft':
+        return `margin-left: ${cssValueString};`;
       case 'marginRight':
+        return `margin-right: ${cssValueString};`;
       case 'marginTop':
+        return `margin-top: ${cssValueString};`;
       case 'marginBottom':
-      case 'padding':
+        return `margin-bottom: ${cssValueString};`;
       case 'paddingLeft':
+        return `padding-left: ${cssValueString};`;
       case 'paddingRight':
+        return `padding-right: ${cssValueString};`;
       case 'paddingTop':
+        return `padding-top: ${cssValueString};`;
       case 'paddingBottom':
-        spacingCss[type] = cssValueString;
-        break;
+        return `padding-bottom: ${cssValueString};`;
+      case 'margin':
+      case 'padding':
+        return `${type}: ${cssValueString};`;
     }
-  });
-
-  return spacingCss;
-};
+  })
+);

@@ -27,9 +27,10 @@ export enum Colors {
   WHITE = '#ffffff',
 
   PRIMARY_LIGHT_075 = 'rgba(249, 192, 189, 0.75)',
+  GREY_030_050 = 'rgba(199, 196, 206, 0.5)',
   WHITE_035 = 'rgba(255, 255, 255, 0.35)'
 }
 
 export const GRADIENTS = {
-  primary: `linear-gradient(99.35deg, ${Colors.PRIMARY_LIGHT} -60.52%, ${Colors.PRIMARY} 10.84%, ${Colors.PRIMARY_DARK} 85.38%)`
+  button: `linear-gradient(99.35deg, ${Colors.PRIMARY_LIGHT} -60.52%, ${Colors.PRIMARY} 10.84%, ${Colors.PRIMARY_DARK} 85.38%)`,
 };
