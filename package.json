@@ -1,19 +1,32 @@
 {
   "scripts": {
-    "dev": "parcel ./src/index.js",
+    "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.js"
   },
   "dependencies": {
+    "assemble": "~0.3.11",
+    "assets": "^3.0.1",
+    "grunt": "~0.4.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "styled-components": "^5.0.1"
+    "react-helmet-async": "^1.0.5",
+    "styled-components": "^5.0.1",
+    "styles": "^0.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
     "@types/styled-components": "^5.0.1",
     "babel-plugin-styled-components": "^1.10.7",
-    "docz": "^2.2.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  },
+  "_moduleAliases": {
+    "@root" : ".",
+    "assets": "src/assets/",
+    "components": "src/components/",
+    "styles": "src/styles/"
   }
 }

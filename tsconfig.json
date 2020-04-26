@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~*": ["./src/*"]
+    },
     "target": "es2015",
     "moduleResolution": "node",
     "strict": true,
@@ -8,5 +12,6 @@
     "skipLibCheck": false,
     "noEmit": true,
     "jsx": "react"
-  }
+  },
+  "include": ["src/**/*"]
 }

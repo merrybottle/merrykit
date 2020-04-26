@@ -1,3 +1,4 @@
+.cache/
+dist/
 node_modules/
-.docz
 src/assets/.DS_Store
