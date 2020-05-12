@@ -26,10 +26,4 @@
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.8.3"
   },
-  "_moduleAliases": {
-    "@root" : ".",
-    "assets": "src/assets/",
-    "components": "src/components/",
-    "styles": "src/styles/"
-  }
 }
