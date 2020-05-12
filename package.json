@@ -1,7 +1,9 @@
 {
   "name": "merrykit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.js",
+  "module": "./dist/module/index.js",
+  "source": "./src/index.ts",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.ts"
