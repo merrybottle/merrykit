@@ -1,10 +1,10 @@
 {
   "name": "merrykit",
-  "version": "1.0.1",
-  "main": "./src/index.ts",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.js"
+    "build": "parcel build ./src/index.ts"
   },
   "dependencies": {
     "assemble": "~0.3.11",
@@ -25,5 +25,10 @@
     "babel-plugin-styled-components": "^1.10.7",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.8.3"
+  },
+  "alias": {
+    "assets": "./src/assets",
+    "components": "./src/components",
+    "styles": "./src/styles"
   }
 }
