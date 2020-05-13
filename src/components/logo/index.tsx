@@ -8,7 +8,7 @@ export interface LogoProps {
   type?: LogoType;
 }
 
-const Logo = ({ color, type = 'default' }: LogoProps) => {
+export const Logo = ({ color, type = 'default' }: LogoProps) => {
   switch (type) {
     case 'social':
       return (
@@ -115,5 +115,3 @@ const Logo = ({ color, type = 'default' }: LogoProps) => {
       );
   }
 };
-
-export default Logo;

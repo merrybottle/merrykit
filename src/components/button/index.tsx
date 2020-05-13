@@ -19,7 +19,7 @@ export interface ButtonProps extends ButtonTextProps {
   loading?: boolean;
 }
 
-const Button = ({
+export const Button = ({
   children,
   kind = 'default',
   loading = false,
@@ -207,5 +207,3 @@ const StyledSpinnerContainer = styled.span`
     ${spacing2css({ marginTop: 0.5 })};
   }
 `;
-
-export default Button;

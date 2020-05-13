@@ -2,7 +2,7 @@ import React from 'react';
 import Styled, { keyframes } from 'styled-components';
 import { Colors, AnimationDurations } from 'styles';
 
-const Spinner = () => (
+export const Spinner = () => (
   <StyledSpinnerSvg width="100%" height="100%" viewBox="0 0 100 100" fill="none">
     <path d="
       M 50,20
@@ -29,5 +29,3 @@ const spinningAnimation = keyframes`
 const StyledSpinnerSvg = Styled.svg`
   animation: ${spinningAnimation} ${AnimationDurations.SPINNER}ms linear infinite;
 `;
-
-export default Spinner;
