@@ -1,3 +1,2 @@
-export * from 'components/button';
-export * from 'components/logo';
-export * from 'components/text';
+export * from 'components';
+export * from 'styles';

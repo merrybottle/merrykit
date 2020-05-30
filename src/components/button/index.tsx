@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { AnimationDelay, AnimationDurations, Colors, FontFamily, FontWeight, GRADIENTS, MEDIA_QUERY, spacing2css } from 'styles';
-import Spinner from 'components/spinner';
+import { Spinner } from 'components/spinner';
 
 const MOBILE_HEIGHT = 44;
 const DESKTOP_HEIGHT = 48;
-const FOCUS_BORDER_SIZE = 5;
 const TOP_PADDING = 2;
 const MOBILE_LINE_HEIGHT = MOBILE_HEIGHT - TOP_PADDING;
 const DESKTOP_LINE_HEIGHT = DESKTOP_HEIGHT - TOP_PADDING;
@@ -38,7 +37,7 @@ export const Button = ({
   </StyledButton>
 );
 
-const StyledButton = styled.button<ButtonProps>`
+const StyledButton = styled.button<Omit<ButtonProps, 'children'>>`
   border: 0;
   box-sizing: border-box;
   font-family: ${FontFamily.MONTSERRAT};

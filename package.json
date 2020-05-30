@@ -1,11 +1,11 @@
 {
   "name": "merrykit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./dist/index.js",
-  "files": [ "dist" ],
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.ts"
+    "build": "tsc && parcel build ./src/index.ts"
   },
   "dependencies": {
     "assemble": "~0.3.11",
@@ -18,13 +18,16 @@
     "styles": "^0.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
     "@types/styled-components": "^5.0.1",
     "babel-plugin-styled-components": "^1.10.7",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0-nightly.275",
+    "tslint": "^6.1.2",
     "typescript": "^3.8.3"
   },
   "alias": {

@@ -29,8 +29,8 @@ const getSpacingCSSString = (spacing: Spacing | Spacing[]) => {
     : format(spacing);
 };
 
-export const spacing2css = (spacingProps: SpacingProps) => (
-  Object.entries(spacingProps).map(([type, value]) => {
+export const spacing2css = (spacingProps: SpacingProps) => css`
+  ${Object.entries(spacingProps).map(([type, value]) => {
     const cssValueString = getSpacingCSSString(value);
 
     switch (type) {
@@ -74,5 +74,5 @@ export const spacing2css = (spacingProps: SpacingProps) => (
       case 'padding':
         return `${type}: ${cssValueString};`;
     }
-  })
-);
+  })}
+`;

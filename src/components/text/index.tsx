@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from 'styled-components';
-import { Colors, FontFamily, FontWeight, SpacingProps, spacing2css, MEDIA_QUERY } from 'styles';
+import { Colors, FontFamily, FontWeight, MEDIA_QUERY } from 'styles';
 
 interface TextProps {
   color?: Colors;
