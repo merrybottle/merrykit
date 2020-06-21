@@ -9,15 +9,15 @@ export interface SpacingProps {
   marginBottom?: Spacing;
   marginLeft?: Spacing;
   marginRight?: Spacing;
-  marginHorizontal?: Spacing;
-  marginVertical?: Spacing;
+  marginX?: Spacing;
+  marginY?: Spacing;
   margin?: Spacing | Spacing[];
   paddingTop?: Spacing;
   paddingBottom?: Spacing;
   paddingLeft?: Spacing;
   paddingRight?: Spacing;
-  paddingHorizontal?: Spacing;
-  paddingVertical?: Spacing;
+  paddingX?: Spacing;
+  paddingY?: Spacing;
   padding?: Spacing | Spacing[];
 }
 
@@ -34,22 +34,22 @@ export const spacing2css = (spacingProps: SpacingProps) => css`
     const cssValueString = getSpacingCSSString(value);
 
     switch (type) {
-      case 'marginHorizontal':
+      case 'marginX':
         return `
           margin-left: ${cssValueString};
           margin-right: ${cssValueString};
         `;
-      case 'paddingHorizontal':
+      case 'paddingX':
         return `
           padding-left: ${cssValueString};
           padding-right: ${cssValueString};
         `;
-      case 'marginVertical':
+      case 'marginY':
         return `
           margin-top: ${cssValueString};
           margin-bottom: ${cssValueString};
         `;
-      case 'paddingVertical':
+      case 'paddingY':
         return `
           padding-top: ${cssValueString};
           padding-bottom: ${cssValueString};

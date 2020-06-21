@@ -4,10 +4,12 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "tsc && parcel build ./src/index.ts"
+    "doc": "typedoc",
+    "dev": "yarn run doc && parcel ./src/index.html",
+    "build": "yarn run doc && tsc && parcel build ./src/index.ts"
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.1",
     "assemble": "~0.3.11",
     "assets": "^3.0.1",
     "grunt": "~0.4.0",
@@ -28,11 +30,16 @@
     "babel-plugin-styled-components": "^1.10.7",
     "parcel": "^2.0.0-nightly.275",
     "tslint": "^6.1.2",
+    "typedoc": "^0.17.7",
     "typescript": "^3.8.3"
   },
   "alias": {
     "assets": "./src/assets",
     "components": "./src/components",
-    "styles": "./src/styles"
+    "explorer-components": "./src/explorer/components",
+    "explorer-utils": "./src/explorer/utils",
+    "explorer-previews": "./src/explorer/previews",
+    "styles": "./src/styles",
+    "docs": "./src/typedocs"
   }
 }
