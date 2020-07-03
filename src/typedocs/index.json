@@ -10590,31 +10590,34 @@
 			]
 		},
 		{
-			"id": 1684,
+			"id": 1747,
 			"name": "\"components/Text/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
-				"isExported": true
+				"isExported": true,
+				"isExternal": true
 			},
 			"originalName": "/Users/merry/projects/merrykit/src/components/Text/index.tsx",
 			"children": [
 				{
-					"id": 1685,
+					"id": 1748,
 					"name": "TextProps",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {
-						"isExported": true
+						"isExported": true,
+						"isExternal": true
 					},
 					"children": [
 						{
-							"id": 1687,
+							"id": 1750,
 							"name": "align",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isExternal": true,
 								"isOptional": true
 							},
 							"sources": [
@@ -10643,12 +10646,13 @@
 							}
 						},
 						{
-							"id": 1686,
+							"id": 1749,
 							"name": "as",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isExternal": true,
 								"isOptional": true
 							},
 							"sources": [
@@ -10664,12 +10668,13 @@
 							}
 						},
 						{
-							"id": 1688,
+							"id": 1751,
 							"name": "casing",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isExternal": true,
 								"isOptional": true
 							},
 							"sources": [
@@ -10698,12 +10703,13 @@
 							}
 						},
 						{
-							"id": 1689,
+							"id": 1752,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isExternal": true,
 								"isOptional": true
 							},
 							"sources": [
@@ -10720,12 +10726,13 @@
 							}
 						},
 						{
-							"id": 1690,
+							"id": 1753,
 							"name": "spacing",
 							"kind": 1024,
 							"kindString": "Property",
 							"flags": {
 								"isExported": true,
+								"isExternal": true,
 								"isOptional": true
 							},
 							"sources": [
@@ -10747,11 +10754,11 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1687,
-								1686,
-								1688,
-								1689,
-								1690
+								1750,
+								1749,
+								1751,
+								1752,
+								1753
 							]
 						}
 					],
@@ -10764,12 +10771,13 @@
 					]
 				},
 				{
-					"id": 1701,
+					"id": 1764,
 					"name": "Body",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -10799,7 +10807,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -10812,7 +10820,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1702,
+									"id": 1765,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -10826,12 +10834,13 @@
 					"defaultValue": "styled.p<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_LIGHT};\n  line-height: 22px;\n\n  small {\n    font-size: 12px;\n    line-height: 17px;\n  }\n\n  strong,\n  small strong {\n    font-weight: ${FontWeights.MONTSERRAT_MEDIUM};\n  }\n`"
 				},
 				{
-					"id": 1693,
+					"id": 1756,
 					"name": "H1",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -10861,7 +10870,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -10874,7 +10883,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1694,
+									"id": 1757,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -10888,12 +10897,13 @@
 					"defaultValue": "styled.h1<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_100};\n  font-family: ${FontFamilies.VOLLKORN};\n  font-size: 26px;\n  font-weight: ${FontWeights.VOLLKORN_BOLD},\n  line-height: 36px;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 34px;\n    line-height: 48px;\n  }\n`"
 				},
 				{
-					"id": 1695,
+					"id": 1758,
 					"name": "H2",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -10923,7 +10933,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -10936,7 +10946,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1696,
+									"id": 1759,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -10950,12 +10960,13 @@
 					"defaultValue": "styled.h2<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_100};\n  font-family: ${FontFamilies.VOLLKORN};\n  font-size: 22px;\n  font-weight: ${FontWeights.VOLLKORN_SEMI_BOLD};\n  line-height: 31px;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 28px;\n    line-height: 39px;\n  }\n`"
 				},
 				{
-					"id": 1697,
+					"id": 1760,
 					"name": "H3",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -10985,7 +10996,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -10998,7 +11009,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1698,
+									"id": 1761,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -11012,12 +11023,13 @@
 					"defaultValue": "styled.h3<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_SEMI_BOLD};\n  letter-spacing: 0.06em;\n  line-height: 22px;\n  text-transform: uppercase;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 18px;\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n    line-height: 25px;\n  }\n`"
 				},
 				{
-					"id": 1699,
+					"id": 1762,
 					"name": "H4",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -11047,7 +11059,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -11060,7 +11072,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1700,
+									"id": 1763,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -11074,12 +11086,13 @@
 					"defaultValue": "styled.h4<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_MEDIUM};\n  letter-spacing: 0.06em;\n  line-height: 22px;\n  text-transform: uppercase;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n  }\n\n  small {\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n    font-size: 12px;\n    line-height: 17px;\n  }\n`"
 				},
 				{
-					"id": 1691,
+					"id": 1754,
 					"name": "Masthead",
 					"kind": 32,
 					"kindString": "Variable",
 					"flags": {
 						"isExported": true,
+						"isExternal": true,
 						"isConst": true
 					},
 					"sources": [
@@ -11109,7 +11122,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1685,
+										"id": 1748,
 										"name": "TextProps"
 									},
 									{
@@ -11122,7 +11135,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1692,
+									"id": 1755,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -11141,19 +11154,19 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1685
+						1748
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1701,
-						1693,
-						1695,
-						1697,
-						1699,
-						1691
+						1764,
+						1756,
+						1758,
+						1760,
+						1762,
+						1754
 					]
 				}
 			],
@@ -11183,7 +11196,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1701
+					"target": 1764
 				},
 				{
 					"id": 1772,
@@ -11193,7 +11206,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1704
+					"target": 1685
 				},
 				{
 					"id": 1771,
@@ -11233,7 +11246,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1710
+					"target": 1691
 				},
 				{
 					"id": 1773,
@@ -11273,7 +11286,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1722
+					"target": 1703
 				},
 				{
 					"id": 1775,
@@ -11293,7 +11306,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1693
+					"target": 1756
 				},
 				{
 					"id": 1786,
@@ -11303,7 +11316,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1695
+					"target": 1758
 				},
 				{
 					"id": 1787,
@@ -11313,7 +11326,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1697
+					"target": 1760
 				},
 				{
 					"id": 1788,
@@ -11323,7 +11336,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1699
+					"target": 1762
 				},
 				{
 					"id": 1778,
@@ -11333,7 +11346,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1741
+					"target": 1722
 				},
 				{
 					"id": 1777,
@@ -11353,7 +11366,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1760
+					"target": 1741
 				},
 				{
 					"id": 1780,
@@ -11363,7 +11376,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1756
+					"target": 1737
 				},
 				{
 					"id": 1779,
@@ -11373,7 +11386,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1759
+					"target": 1740
 				},
 				{
 					"id": 1784,
@@ -11383,7 +11396,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1691
+					"target": 1754
 				},
 				{
 					"id": 1782,
@@ -11403,7 +11416,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 1685
+					"target": 1748
 				}
 			],
 			"groups": [
@@ -11446,7 +11459,7 @@
 			]
 		},
 		{
-			"id": 1703,
+			"id": 1684,
 			"name": "\"components/layout/Box/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -11456,7 +11469,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Box/index.tsx",
 			"children": [
 				{
-					"id": 1704,
+					"id": 1685,
 					"name": "Box",
 					"kind": 64,
 					"kindString": "Function",
@@ -11466,7 +11479,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1705,
+							"id": 1686,
 							"name": "Box",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11475,7 +11488,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1706,
+									"id": 1687,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11492,7 +11505,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1707,
+													"id": 1688,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -11501,7 +11514,7 @@
 													},
 													"children": [
 														{
-															"id": 1708,
+															"id": 1689,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -11527,7 +11540,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1708
+																1689
 															]
 														}
 													]
@@ -11557,7 +11570,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1704
+						1685
 					]
 				}
 			],
@@ -11570,7 +11583,7 @@
 			]
 		},
 		{
-			"id": 1709,
+			"id": 1690,
 			"name": "\"components/layout/Container/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -11580,7 +11593,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Container/index.tsx",
 			"children": [
 				{
-					"id": 1710,
+					"id": 1691,
 					"name": "Container",
 					"kind": 64,
 					"kindString": "Function",
@@ -11590,7 +11603,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1711,
+							"id": 1692,
 							"name": "Container",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11599,7 +11612,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1712,
+									"id": 1693,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11612,7 +11625,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1713,
+													"id": 1694,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -11621,7 +11634,7 @@
 													},
 													"children": [
 														{
-															"id": 1714,
+															"id": 1695,
 															"name": "disableGutters",
 															"kind": 32,
 															"kindString": "Variable",
@@ -11655,7 +11668,7 @@
 															}
 														},
 														{
-															"id": 1715,
+															"id": 1696,
 															"name": "fixed",
 															"kind": 32,
 															"kindString": "Variable",
@@ -11689,7 +11702,7 @@
 															}
 														},
 														{
-															"id": 1716,
+															"id": 1697,
 															"name": "maxWidth",
 															"kind": 32,
 															"kindString": "Variable",
@@ -11740,6 +11753,437 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
+																1695,
+																1696,
+																1697
+															]
+														}
+													]
+												}
+											},
+											{
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reflection",
+																"declaration": {
+																	"id": 1698,
+																	"name": "__type",
+																	"kind": 65536,
+																	"kindString": "Type literal",
+																	"flags": {
+																		"isExported": true
+																	}
+																}
+															},
+															{
+																"type": "stringLiteral",
+																"value": "div"
+															}
+														],
+														"name": "ContainerTypeMap"
+													}
+												],
+												"name": "CommonProps"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 1699,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													}
+												}
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 1700,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 1701,
+															"name": "children",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@types/react/index.d.ts",
+																	"line": 823,
+																	"character": 46
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "ReactNode"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																1701
+															]
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/components/layout/Container/index.tsx",
+							"line": 5,
+							"character": 22
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						1691
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/components/layout/Container/index.tsx",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1702,
+			"name": "\"components/layout/Grid/index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Grid/index.tsx",
+			"children": [
+				{
+					"id": 1703,
+					"name": "Grid",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 1704,
+							"name": "Grid",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 1705,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 1706,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													}
+												}
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 1707,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"children": [
+														{
+															"id": 1708,
+															"name": "alignContent",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 83,
+																	"character": 18
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridContentAlignment"
+															}
+														},
+														{
+															"id": 1709,
+															"name": "alignItems",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 84,
+																	"character": 16
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridItemsAlignment"
+															}
+														},
+														{
+															"id": 1710,
+															"name": "container",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 85,
+																	"character": 15
+																}
+															],
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "intrinsic",
+																		"name": "undefined"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "false"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "true"
+																	}
+																]
+															}
+														},
+														{
+															"id": 1711,
+															"name": "direction",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 86,
+																	"character": 15
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridDirection"
+															}
+														},
+														{
+															"id": 1712,
+															"name": "item",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 87,
+																	"character": 10
+																}
+															],
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "intrinsic",
+																		"name": "undefined"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "false"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "true"
+																	}
+																]
+															}
+														},
+														{
+															"id": 1713,
+															"name": "justify",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 88,
+																	"character": 13
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridJustification"
+															}
+														},
+														{
+															"id": 1714,
+															"name": "spacing",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 89,
+																	"character": 13
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridSpacing"
+															}
+														},
+														{
+															"id": 1715,
+															"name": "wrap",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 90,
+																	"character": 10
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "GridWrap"
+															}
+														},
+														{
+															"id": 1716,
+															"name": "zeroMinWidth",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isExported": true,
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
+																	"line": 91,
+																	"character": 18
+																}
+															],
+															"type": {
+																"type": "union",
+																"types": [
+																	{
+																		"type": "intrinsic",
+																		"name": "undefined"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "false"
+																	},
+																	{
+																		"type": "intrinsic",
+																		"name": "true"
+																	}
+																]
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																1708,
+																1709,
+																1710,
+																1711,
+																1712,
+																1713,
 																1714,
 																1715,
 																1716
@@ -11771,7 +12215,7 @@
 																"value": "div"
 															}
 														],
-														"name": "ContainerTypeMap"
+														"name": "GridTypeMap"
 													}
 												],
 												"name": "CommonProps"
@@ -11844,9 +12288,9 @@
 					],
 					"sources": [
 						{
-							"fileName": "src/components/layout/Container/index.tsx",
+							"fileName": "src/components/layout/Grid/index.tsx",
 							"line": 5,
-							"character": 22
+							"character": 17
 						}
 					]
 				}
@@ -11856,13 +12300,13 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1710
+						1703
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "src/components/layout/Container/index.tsx",
+					"fileName": "src/components/layout/Grid/index.tsx",
 					"line": 1,
 					"character": 0
 				}
@@ -11870,17 +12314,17 @@
 		},
 		{
 			"id": 1721,
-			"name": "\"components/layout/Grid/index\"",
+			"name": "\"components/layout/Hidden/index\"",
 			"kind": 1,
 			"kindString": "Module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Grid/index.tsx",
+			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Hidden/index.tsx",
 			"children": [
 				{
 					"id": 1722,
-					"name": "Grid",
+					"name": "Hidden",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
@@ -11890,7 +12334,7 @@
 					"signatures": [
 						{
 							"id": 1723,
-							"name": "Grid",
+							"name": "Hidden",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
@@ -11909,6 +12353,10 @@
 										"type": "intersection",
 										"types": [
 											{
+												"type": "reference",
+												"name": "HiddenProps"
+											},
+											{
 												"type": "reflection",
 												"declaration": {
 													"id": 1725,
@@ -11917,321 +12365,10 @@
 													"kindString": "Type literal",
 													"flags": {
 														"isExported": true
-													}
-												}
-											},
-											{
-												"type": "reflection",
-												"declaration": {
-													"id": 1726,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"isExported": true
 													},
 													"children": [
 														{
-															"id": 1727,
-															"name": "alignContent",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 83,
-																	"character": 18
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridContentAlignment"
-															}
-														},
-														{
-															"id": 1728,
-															"name": "alignItems",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 84,
-																	"character": 16
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridItemsAlignment"
-															}
-														},
-														{
-															"id": 1729,
-															"name": "container",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 85,
-																	"character": 15
-																}
-															],
-															"type": {
-																"type": "union",
-																"types": [
-																	{
-																		"type": "intrinsic",
-																		"name": "undefined"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "false"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "true"
-																	}
-																]
-															}
-														},
-														{
-															"id": 1730,
-															"name": "direction",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 86,
-																	"character": 15
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridDirection"
-															}
-														},
-														{
-															"id": 1731,
-															"name": "item",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 87,
-																	"character": 10
-																}
-															],
-															"type": {
-																"type": "union",
-																"types": [
-																	{
-																		"type": "intrinsic",
-																		"name": "undefined"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "false"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "true"
-																	}
-																]
-															}
-														},
-														{
-															"id": 1732,
-															"name": "justify",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 88,
-																	"character": 13
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridJustification"
-															}
-														},
-														{
-															"id": 1733,
-															"name": "spacing",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 89,
-																	"character": 13
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridSpacing"
-															}
-														},
-														{
-															"id": 1734,
-															"name": "wrap",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 90,
-																	"character": 10
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "GridWrap"
-															}
-														},
-														{
-															"id": 1735,
-															"name": "zeroMinWidth",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@material-ui/core/Grid/Grid.d.ts",
-																	"line": 91,
-																	"character": 18
-																}
-															],
-															"type": {
-																"type": "union",
-																"types": [
-																	{
-																		"type": "intrinsic",
-																		"name": "undefined"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "false"
-																	},
-																	{
-																		"type": "intrinsic",
-																		"name": "true"
-																	}
-																]
-															}
-														}
-													],
-													"groups": [
-														{
-															"title": "Variables",
-															"kind": 32,
-															"children": [
-																1727,
-																1728,
-																1729,
-																1730,
-																1731,
-																1732,
-																1733,
-																1734,
-																1735
-															]
-														}
-													]
-												}
-											},
-											{
-												"type": "reference",
-												"typeArguments": [
-													{
-														"type": "reference",
-														"typeArguments": [
-															{
-																"type": "reflection",
-																"declaration": {
-																	"id": 1736,
-																	"name": "__type",
-																	"kind": 65536,
-																	"kindString": "Type literal",
-																	"flags": {
-																		"isExported": true
-																	}
-																}
-															},
-															{
-																"type": "stringLiteral",
-																"value": "div"
-															}
-														],
-														"name": "GridTypeMap"
-													}
-												],
-												"name": "CommonProps"
-											},
-											{
-												"type": "reflection",
-												"declaration": {
-													"id": 1737,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"isExported": true
-													}
-												}
-											},
-											{
-												"type": "reflection",
-												"declaration": {
-													"id": 1738,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"isExported": true
-													},
-													"children": [
-														{
-															"id": 1739,
+															"id": 1726,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12257,131 +12394,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1739
-															]
-														}
-													]
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "Element"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/components/layout/Grid/index.tsx",
-							"line": 5,
-							"character": 17
-						}
-					]
-				}
-			],
-			"groups": [
-				{
-					"title": "Functions",
-					"kind": 64,
-					"children": [
-						1722
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "src/components/layout/Grid/index.tsx",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
-			"id": 1740,
-			"name": "\"components/layout/Hidden/index\"",
-			"kind": 1,
-			"kindString": "Module",
-			"flags": {
-				"isExported": true
-			},
-			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Hidden/index.tsx",
-			"children": [
-				{
-					"id": 1741,
-					"name": "Hidden",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true,
-						"isConst": true
-					},
-					"signatures": [
-						{
-							"id": 1742,
-							"name": "Hidden",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"isExported": true
-							},
-							"parameters": [
-								{
-									"id": 1743,
-									"name": "props",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"type": {
-										"type": "intersection",
-										"types": [
-											{
-												"type": "reference",
-												"name": "HiddenProps"
-											},
-											{
-												"type": "reflection",
-												"declaration": {
-													"id": 1744,
-													"name": "__type",
-													"kind": 65536,
-													"kindString": "Type literal",
-													"flags": {
-														"isExported": true
-													},
-													"children": [
-														{
-															"id": 1745,
-															"name": "children",
-															"kind": 32,
-															"kindString": "Variable",
-															"flags": {
-																"isExported": true,
-																"isOptional": true
-															},
-															"sources": [
-																{
-																	"fileName": "node_modules/@types/react/index.d.ts",
-																	"line": 823,
-																	"character": 46
-																}
-															],
-															"type": {
-																"type": "reference",
-																"name": "ReactNode"
-															}
-														}
-													],
-													"groups": [
-														{
-															"title": "Variables",
-															"kind": 32,
-															"children": [
-																1745
+																1726
 															]
 														}
 													]
@@ -12411,7 +12424,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1741
+						1722
 					]
 				}
 			],
@@ -12424,7 +12437,7 @@
 			]
 		},
 		{
-			"id": 1746,
+			"id": 1727,
 			"name": "\"components/layout/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -12434,17 +12447,17 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/index.ts",
 			"children": [
 				{
-					"id": 1748,
+					"id": 1729,
 					"name": "Box",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1704
+					"target": 1685
 				},
 				{
-					"id": 1747,
+					"id": 1728,
 					"name": "BoxProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12454,17 +12467,17 @@
 					"target": -1
 				},
 				{
-					"id": 1750,
+					"id": 1731,
 					"name": "Container",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1710
+					"target": 1691
 				},
 				{
-					"id": 1749,
+					"id": 1730,
 					"name": "ContainerProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12474,17 +12487,17 @@
 					"target": -1
 				},
 				{
-					"id": 1752,
+					"id": 1733,
 					"name": "Grid",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1722
+					"target": 1703
 				},
 				{
-					"id": 1751,
+					"id": 1732,
 					"name": "GridProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12494,17 +12507,17 @@
 					"target": -1
 				},
 				{
-					"id": 1754,
+					"id": 1735,
 					"name": "Hidden",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1741
+					"target": 1722
 				},
 				{
-					"id": 1753,
+					"id": 1734,
 					"name": "HiddenProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12519,14 +12532,14 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1748,
-						1747,
-						1750,
-						1749,
-						1752,
-						1751,
-						1754,
-						1753
+						1729,
+						1728,
+						1731,
+						1730,
+						1733,
+						1732,
+						1735,
+						1734
 					]
 				}
 			],
@@ -12539,7 +12552,7 @@
 			]
 		},
 		{
-			"id": 1755,
+			"id": 1736,
 			"name": "\"components/logo/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -12549,7 +12562,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/logo/index.tsx",
 			"children": [
 				{
-					"id": 1756,
+					"id": 1737,
 					"name": "LogoProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -12558,7 +12571,7 @@
 					},
 					"children": [
 						{
-							"id": 1757,
+							"id": 1738,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12580,7 +12593,7 @@
 							}
 						},
 						{
-							"id": 1758,
+							"id": 1739,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12597,7 +12610,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1759,
+								"id": 1740,
 								"name": "LogoType"
 							}
 						}
@@ -12607,8 +12620,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1757,
-								1758
+								1738,
+								1739
 							]
 						}
 					],
@@ -12621,7 +12634,7 @@
 					]
 				},
 				{
-					"id": 1759,
+					"id": 1740,
 					"name": "LogoType",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -12654,7 +12667,7 @@
 					}
 				},
 				{
-					"id": 1760,
+					"id": 1741,
 					"name": "Logo",
 					"kind": 64,
 					"kindString": "Function",
@@ -12664,7 +12677,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1761,
+							"id": 1742,
 							"name": "Logo",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -12673,7 +12686,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1762,
+									"id": 1743,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -12684,7 +12697,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1763,
+											"id": 1744,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -12693,7 +12706,7 @@
 											},
 											"children": [
 												{
-													"id": 1764,
+													"id": 1745,
 													"name": "color",
 													"kind": 32,
 													"kindString": "Variable",
@@ -12808,7 +12821,7 @@
 													}
 												},
 												{
-													"id": 1765,
+													"id": 1746,
 													"name": "type",
 													"kind": 32,
 													"kindString": "Variable",
@@ -12847,8 +12860,8 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1764,
-														1765
+														1745,
+														1746
 													]
 												}
 											],
@@ -12883,21 +12896,21 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1756
+						1737
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						1759
+						1740
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1760
+						1741
 					]
 				}
 			],
@@ -15845,14 +15858,14 @@
 			"children": [
 				1378,
 				1677,
-				1684,
+				1747,
 				1766,
-				1703,
-				1709,
+				1684,
+				1690,
+				1702,
 				1721,
-				1740,
-				1746,
-				1755,
+				1727,
+				1736,
 				1371,
 				1,
 				7,
