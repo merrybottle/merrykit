@@ -132,3 +132,28 @@ export const Body = styled.p<TextProps>`
     font-weight: ${FontWeights.MONTSERRAT_MEDIUM};
   }
 `;
+
+export const Link = styled.a<TextProps>`
+  margin: 0;
+  padding: 0;
+  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
+  ${({ align }) => align ? css`text-align: ${align};`: ''}
+  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  color: ${({ color }) => color || Colors.SECONDARY};
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  text-decoration: underline;
+  transition: 0.2s ease-in;
+
+  :active,
+  :focus,
+  :hover {
+    opacity: 0.6;
+  }
+
+  :visited {
+    opacity: 0.4;
+  }
+`;
