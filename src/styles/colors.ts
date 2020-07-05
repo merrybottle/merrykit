@@ -33,4 +33,10 @@ export enum Colors {
 
 export const GRADIENTS = {
   button: `linear-gradient(99.35deg, ${Colors.PRIMARY_LIGHT} -60.52%, ${Colors.PRIMARY} 10.84%, ${Colors.PRIMARY_DARK} 85.38%)`,
+  stripe: `repeating-linear-gradient(
+    -35deg,
+    ${Colors.PRIMARY_DARK} 0 20px,
+    ${Colors.PRIMARY_LIGHT} 20px 40px,
+    ${Colors.SECONDARY} 40px 60px
+  )`
 };

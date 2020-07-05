@@ -1,10 +1,10 @@
 import React from 'react';
 import { Body, Box, Grid, H4 } from 'components';
-import { BorderWidths, BorderRadii, Colors as StyleColors } from 'styles';
+import { BorderWidths, BorderRadii, Colors as StyleColors, GRADIENTS } from 'styles';
 import styled from 'styled-components';
 import { CopyButton, StylesPreview } from 'explorer-components';
 
-const ColorBox = styled.div<{ showBorder?: boolean; bgcolor: string; }>`
+const ColorBox = styled.div<{ showBorder?: boolean; bgcolor?: string; }>`
   background-color: ${({ bgcolor }) => bgcolor};
   border: ${({ showBorder }) => showBorder ? `${BorderWidths.MEDIUM} solid ${StyleColors.GREY_090}` : 0};
   border-radius: ${BorderRadii.MEDIUM};
@@ -33,6 +33,32 @@ const ColorDefinition: React.FC<ColorDefinitionProps> = ({ name, friendlyName, c
 
       <CopyButton spacing={{ marginTop: 1 }} text={enumValue} />
       <CopyButton spacing={{ marginTop: 0.5 }} text={color} />
+    </Box>
+  );
+};
+
+const GradientBox = styled(ColorBox)<{ gradient?: string; }>`
+  background: ${({ gradient }) => gradient};
+`;
+
+interface GradientDefinitionProps {
+  name: 'button' | 'stripe';
+  showBorder?: boolean;
+}
+
+const GradientDefinition: React.FC<GradientDefinitionProps> = ({ name, showBorder }) => {
+  const enumValue = `GRADIENTS.${name.toLowerCase()}`;
+
+  return (
+    <Box display="flex" flexDirection="column" alignItems="center">
+      <Body align="center" casing="uppercase" spacing={{ marginBottom: 1 }}>
+        <small><strong>{name}</strong></small>
+      </Body>
+
+      <GradientBox gradient={GRADIENTS[name]} showBorder={showBorder} />
+
+      <CopyButton spacing={{ marginTop: 1 }} text={enumValue} />
+      <CopyButton spacing={{ marginTop: 0.5 }} text={GRADIENTS[name]} />
     </Box>
   );
 };
@@ -166,6 +192,26 @@ export const Colors = () => (
 
               <Grid item={true} xs={2}>
                 <ColorDefinition name="White_035" friendlyName="White 35%" color={StyleColors.WHITE_035} showBorder={true} />
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Grid>
+
+      <Grid item={true} xs={12}>
+        <Grid container={true} spacing={4} alignItems="center">
+          <Grid item={true} xs={2}>
+            <H4 align="right">Gradient</H4>
+          </Grid>
+
+          <Grid item={true} xs={10}>
+            <Grid container={true} spacing={3}>
+              <Grid item={true} xs={2}>
+                <GradientDefinition name="button" />
+              </Grid>
+
+              <Grid item={true} xs={2}>
+                <GradientDefinition name="stripe" />
               </Grid>
             </Grid>
           </Grid>
