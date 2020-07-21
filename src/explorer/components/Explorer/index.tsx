@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import FavIcon from 'assets/icons/favicon-32x32.png';
 import { Colors, GOOGLE_FONT_LINK } from 'styles';
 import { Box, Grid } from 'components';
 import { createGlobalStyle } from 'styled-components';
@@ -21,7 +20,7 @@ export const Explorer = () => {
     <HelmetProvider>
       <Helmet>
         <meta charSet="utf-8" />
-        <link rel="shortcut icon" type="image/png" href={FavIcon} />
+        <link rel="shortcut icon" type="image/png" href="assets/icons/favicon-32x32.png" />
         <link rel="stylesheet" href={GOOGLE_FONT_LINK} />
         <title>MERRYKIT</title>
       </Helmet>

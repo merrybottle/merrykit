@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { AnimationDelay, AnimationDurations, Colors, FontFamilies, FontWeights, GRADIENTS, MEDIA_QUERY, spacing2css } from 'styles';
-import { Spinner } from 'components/spinner';
+import { Spinner } from '../Spinner';
 
 const MOBILE_HEIGHT = 44;
 const DESKTOP_HEIGHT = 48;
