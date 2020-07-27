@@ -1,11 +1,12 @@
 {
   "name": "merrykit",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "doc": "typedoc",
-    "dev": "yarn run doc && parcel ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "build:doc": "yarn run doc",
     "build": "yarn run doc && tsc && parcel build ./src/index.ts"
   },
   "dependencies": {

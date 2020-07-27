@@ -24,7 +24,7 @@ export interface PreviewPropsType {
 export interface PreviewProps {
   type: 'styles' | 'components';
   title: string;
-  description?: string;
+  description?: string | React.ReactNode;
   props?: PreviewPropsType[];
 }
 

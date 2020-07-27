@@ -22,7 +22,7 @@ interface MenuProps {
   onChange: (preview: React.ReactNode) => void;
 }
 
-type PreviewScreens = 'animations' | 'borders' | 'breakpoints' | 'colors' | 'fonts' | 'spacing' | 'button';
+type PreviewScreens = 'animations' | 'borders' | 'breakpoints' | 'colors' | 'fonts' | 'spacing' | 'button' | 'icons';
 
 export const Menu: React.FC<MenuProps> = ({ onChange }) => {
   const [activePreview, setActivePreview] = useState<PreviewScreens>();
@@ -51,6 +51,7 @@ export const Menu: React.FC<MenuProps> = ({ onChange }) => {
 
       <ul>
         <li><Button isActive={activePreview === 'button'} onClick={() => handleChange('button', 'Button')}>Button</Button></li>
+        <li><Button isActive={activePreview === 'icons'} onClick={() => handleChange('icons', 'Icons')}>Icons</Button></li>
       </ul>
     </Box>
   );
