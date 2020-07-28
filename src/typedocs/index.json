@@ -6,7 +6,7 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 1439,
+			"id": 1389,
 			"name": "\"components/Button/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -16,7 +16,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/Button/index.tsx",
 			"children": [
 				{
-					"id": 1440,
+					"id": 1390,
 					"name": "ButtonProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -25,7 +25,7 @@
 					},
 					"children": [
 						{
-							"id": 1476,
+							"id": 1426,
 							"name": "about",
 							"kind": 1024,
 							"kindString": "Property",
@@ -55,12 +55,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1476,
+								"id": 1426,
 								"name": "HTMLAttributes.about"
 							}
 						},
 						{
-							"id": 1458,
+							"id": 1408,
 							"name": "accessKey",
 							"kind": 1024,
 							"kindString": "Property",
@@ -90,12 +90,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1458,
+								"id": 1408,
 								"name": "HTMLAttributes.accessKey"
 							}
 						},
 						{
-							"id": 1498,
+							"id": 1448,
 							"name": "aria-activedescendant",
 							"kind": 1024,
 							"kindString": "Property",
@@ -128,12 +128,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1498,
+								"id": 1448,
 								"name": "AriaAttributes.'aria-activedescendant'"
 							}
 						},
 						{
-							"id": 1499,
+							"id": 1449,
 							"name": "aria-atomic",
 							"kind": 1024,
 							"kindString": "Property",
@@ -170,12 +170,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1499,
+								"id": 1449,
 								"name": "AriaAttributes.'aria-atomic'"
 							}
 						},
 						{
-							"id": 1500,
+							"id": 1450,
 							"name": "aria-autocomplete",
 							"kind": 1024,
 							"kindString": "Property",
@@ -216,12 +216,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1500,
+								"id": 1450,
 								"name": "AriaAttributes.'aria-autocomplete'"
 							}
 						},
 						{
-							"id": 1501,
+							"id": 1451,
 							"name": "aria-busy",
 							"kind": 1024,
 							"kindString": "Property",
@@ -258,12 +258,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1501,
+								"id": 1451,
 								"name": "AriaAttributes.'aria-busy'"
 							}
 						},
 						{
-							"id": 1502,
+							"id": 1452,
 							"name": "aria-checked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -310,12 +310,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1502,
+								"id": 1452,
 								"name": "AriaAttributes.'aria-checked'"
 							}
 						},
 						{
-							"id": 1503,
+							"id": 1453,
 							"name": "aria-colcount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -354,12 +354,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1503,
+								"id": 1453,
 								"name": "AriaAttributes.'aria-colcount'"
 							}
 						},
 						{
-							"id": 1504,
+							"id": 1454,
 							"name": "aria-colindex",
 							"kind": 1024,
 							"kindString": "Property",
@@ -398,12 +398,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1504,
+								"id": 1454,
 								"name": "AriaAttributes.'aria-colindex'"
 							}
 						},
 						{
-							"id": 1505,
+							"id": 1455,
 							"name": "aria-colspan",
 							"kind": 1024,
 							"kindString": "Property",
@@ -442,12 +442,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1505,
+								"id": 1455,
 								"name": "AriaAttributes.'aria-colspan'"
 							}
 						},
 						{
-							"id": 1506,
+							"id": 1456,
 							"name": "aria-controls",
 							"kind": 1024,
 							"kindString": "Property",
@@ -486,12 +486,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1506,
+								"id": 1456,
 								"name": "AriaAttributes.'aria-controls'"
 							}
 						},
 						{
-							"id": 1507,
+							"id": 1457,
 							"name": "aria-current",
 							"kind": 1024,
 							"kindString": "Property",
@@ -548,12 +548,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1507,
+								"id": 1457,
 								"name": "AriaAttributes.'aria-current'"
 							}
 						},
 						{
-							"id": 1508,
+							"id": 1458,
 							"name": "aria-describedby",
 							"kind": 1024,
 							"kindString": "Property",
@@ -592,12 +592,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1508,
+								"id": 1458,
 								"name": "AriaAttributes.'aria-describedby'"
 							}
 						},
 						{
-							"id": 1509,
+							"id": 1459,
 							"name": "aria-details",
 							"kind": 1024,
 							"kindString": "Property",
@@ -636,12 +636,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1509,
+								"id": 1459,
 								"name": "AriaAttributes.'aria-details'"
 							}
 						},
 						{
-							"id": 1510,
+							"id": 1460,
 							"name": "aria-disabled",
 							"kind": 1024,
 							"kindString": "Property",
@@ -684,12 +684,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1510,
+								"id": 1460,
 								"name": "AriaAttributes.'aria-disabled'"
 							}
 						},
 						{
-							"id": 1511,
+							"id": 1461,
 							"name": "aria-dropeffect",
 							"kind": 1024,
 							"kindString": "Property",
@@ -744,12 +744,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1511,
+								"id": 1461,
 								"name": "AriaAttributes.'aria-dropeffect'"
 							}
 						},
 						{
-							"id": 1512,
+							"id": 1462,
 							"name": "aria-errormessage",
 							"kind": 1024,
 							"kindString": "Property",
@@ -788,12 +788,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1512,
+								"id": 1462,
 								"name": "AriaAttributes.'aria-errormessage'"
 							}
 						},
 						{
-							"id": 1513,
+							"id": 1463,
 							"name": "aria-expanded",
 							"kind": 1024,
 							"kindString": "Property",
@@ -830,12 +830,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1513,
+								"id": 1463,
 								"name": "AriaAttributes.'aria-expanded'"
 							}
 						},
 						{
-							"id": 1514,
+							"id": 1464,
 							"name": "aria-flowto",
 							"kind": 1024,
 							"kindString": "Property",
@@ -868,12 +868,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1514,
+								"id": 1464,
 								"name": "AriaAttributes.'aria-flowto'"
 							}
 						},
 						{
-							"id": 1515,
+							"id": 1465,
 							"name": "aria-grabbed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -916,12 +916,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1515,
+								"id": 1465,
 								"name": "AriaAttributes.'aria-grabbed'"
 							}
 						},
 						{
-							"id": 1516,
+							"id": 1466,
 							"name": "aria-haspopup",
 							"kind": 1024,
 							"kindString": "Property",
@@ -978,12 +978,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1516,
+								"id": 1466,
 								"name": "AriaAttributes.'aria-haspopup'"
 							}
 						},
 						{
-							"id": 1517,
+							"id": 1467,
 							"name": "aria-hidden",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1026,12 +1026,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1517,
+								"id": 1467,
 								"name": "AriaAttributes.'aria-hidden'"
 							}
 						},
 						{
-							"id": 1518,
+							"id": 1468,
 							"name": "aria-invalid",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1082,12 +1082,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1518,
+								"id": 1468,
 								"name": "AriaAttributes.'aria-invalid'"
 							}
 						},
 						{
-							"id": 1519,
+							"id": 1469,
 							"name": "aria-keyshortcuts",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1120,12 +1120,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1519,
+								"id": 1469,
 								"name": "AriaAttributes.'aria-keyshortcuts'"
 							}
 						},
 						{
-							"id": 1520,
+							"id": 1470,
 							"name": "aria-label",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1164,12 +1164,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1520,
+								"id": 1470,
 								"name": "AriaAttributes.'aria-label'"
 							}
 						},
 						{
-							"id": 1521,
+							"id": 1471,
 							"name": "aria-labelledby",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1208,12 +1208,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1521,
+								"id": 1471,
 								"name": "AriaAttributes.'aria-labelledby'"
 							}
 						},
 						{
-							"id": 1522,
+							"id": 1472,
 							"name": "aria-level",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1246,12 +1246,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1522,
+								"id": 1472,
 								"name": "AriaAttributes.'aria-level'"
 							}
 						},
 						{
-							"id": 1523,
+							"id": 1473,
 							"name": "aria-live",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1288,12 +1288,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1523,
+								"id": 1473,
 								"name": "AriaAttributes.'aria-live'"
 							}
 						},
 						{
-							"id": 1524,
+							"id": 1474,
 							"name": "aria-modal",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1330,12 +1330,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1524,
+								"id": 1474,
 								"name": "AriaAttributes.'aria-modal'"
 							}
 						},
 						{
-							"id": 1525,
+							"id": 1475,
 							"name": "aria-multiline",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1372,12 +1372,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1525,
+								"id": 1475,
 								"name": "AriaAttributes.'aria-multiline'"
 							}
 						},
 						{
-							"id": 1526,
+							"id": 1476,
 							"name": "aria-multiselectable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1414,12 +1414,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1526,
+								"id": 1476,
 								"name": "AriaAttributes.'aria-multiselectable'"
 							}
 						},
 						{
-							"id": 1527,
+							"id": 1477,
 							"name": "aria-orientation",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1452,12 +1452,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1527,
+								"id": 1477,
 								"name": "AriaAttributes.'aria-orientation'"
 							}
 						},
 						{
-							"id": 1528,
+							"id": 1478,
 							"name": "aria-owns",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1496,12 +1496,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1528,
+								"id": 1478,
 								"name": "AriaAttributes.'aria-owns'"
 							}
 						},
 						{
-							"id": 1529,
+							"id": 1479,
 							"name": "aria-placeholder",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1534,12 +1534,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1529,
+								"id": 1479,
 								"name": "AriaAttributes.'aria-placeholder'"
 							}
 						},
 						{
-							"id": 1530,
+							"id": 1480,
 							"name": "aria-posinset",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1578,12 +1578,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1530,
+								"id": 1480,
 								"name": "AriaAttributes.'aria-posinset'"
 							}
 						},
 						{
-							"id": 1531,
+							"id": 1481,
 							"name": "aria-pressed",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1630,12 +1630,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1531,
+								"id": 1481,
 								"name": "AriaAttributes.'aria-pressed'"
 							}
 						},
 						{
-							"id": 1532,
+							"id": 1482,
 							"name": "aria-readonly",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1678,12 +1678,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1532,
+								"id": 1482,
 								"name": "AriaAttributes.'aria-readonly'"
 							}
 						},
 						{
-							"id": 1533,
+							"id": 1483,
 							"name": "aria-relevant",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1734,12 +1734,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1533,
+								"id": 1483,
 								"name": "AriaAttributes.'aria-relevant'"
 							}
 						},
 						{
-							"id": 1534,
+							"id": 1484,
 							"name": "aria-required",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1776,12 +1776,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1534,
+								"id": 1484,
 								"name": "AriaAttributes.'aria-required'"
 							}
 						},
 						{
-							"id": 1535,
+							"id": 1485,
 							"name": "aria-roledescription",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1814,12 +1814,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1535,
+								"id": 1485,
 								"name": "AriaAttributes.'aria-roledescription'"
 							}
 						},
 						{
-							"id": 1536,
+							"id": 1486,
 							"name": "aria-rowcount",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1858,12 +1858,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1536,
+								"id": 1486,
 								"name": "AriaAttributes.'aria-rowcount'"
 							}
 						},
 						{
-							"id": 1537,
+							"id": 1487,
 							"name": "aria-rowindex",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1902,12 +1902,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1537,
+								"id": 1487,
 								"name": "AriaAttributes.'aria-rowindex'"
 							}
 						},
 						{
-							"id": 1538,
+							"id": 1488,
 							"name": "aria-rowspan",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1946,12 +1946,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1538,
+								"id": 1488,
 								"name": "AriaAttributes.'aria-rowspan'"
 							}
 						},
 						{
-							"id": 1539,
+							"id": 1489,
 							"name": "aria-selected",
 							"kind": 1024,
 							"kindString": "Property",
@@ -1994,12 +1994,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1539,
+								"id": 1489,
 								"name": "AriaAttributes.'aria-selected'"
 							}
 						},
 						{
-							"id": 1540,
+							"id": 1490,
 							"name": "aria-setsize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2038,12 +2038,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1540,
+								"id": 1490,
 								"name": "AriaAttributes.'aria-setsize'"
 							}
 						},
 						{
-							"id": 1541,
+							"id": 1491,
 							"name": "aria-sort",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2084,12 +2084,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1541,
+								"id": 1491,
 								"name": "AriaAttributes.'aria-sort'"
 							}
 						},
 						{
-							"id": 1542,
+							"id": 1492,
 							"name": "aria-valuemax",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2122,12 +2122,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1542,
+								"id": 1492,
 								"name": "AriaAttributes.'aria-valuemax'"
 							}
 						},
 						{
-							"id": 1543,
+							"id": 1493,
 							"name": "aria-valuemin",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2160,12 +2160,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1543,
+								"id": 1493,
 								"name": "AriaAttributes.'aria-valuemin'"
 							}
 						},
 						{
-							"id": 1544,
+							"id": 1494,
 							"name": "aria-valuenow",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2204,12 +2204,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1544,
+								"id": 1494,
 								"name": "AriaAttributes.'aria-valuenow'"
 							}
 						},
 						{
-							"id": 1545,
+							"id": 1495,
 							"name": "aria-valuetext",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2242,12 +2242,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1545,
+								"id": 1495,
 								"name": "AriaAttributes.'aria-valuetext'"
 							}
 						},
 						{
-							"id": 1484,
+							"id": 1434,
 							"name": "autoCapitalize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2277,12 +2277,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1484,
+								"id": 1434,
 								"name": "HTMLAttributes.autoCapitalize"
 							}
 						},
 						{
-							"id": 1485,
+							"id": 1435,
 							"name": "autoCorrect",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2312,12 +2312,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1485,
+								"id": 1435,
 								"name": "HTMLAttributes.autoCorrect"
 							}
 						},
 						{
-							"id": 1443,
+							"id": 1393,
 							"name": "autoFocus",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2351,12 +2351,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1443,
+								"id": 1393,
 								"name": "ButtonHTMLAttributes.autoFocus"
 							}
 						},
 						{
-							"id": 1486,
+							"id": 1436,
 							"name": "autoSave",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2386,12 +2386,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1486,
+								"id": 1436,
 								"name": "HTMLAttributes.autoSave"
 							}
 						},
 						{
-							"id": 1546,
+							"id": 1496,
 							"name": "children",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2412,12 +2412,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1546,
+								"id": 1496,
 								"name": "DOMAttributes.children"
 							}
 						},
 						{
-							"id": 1459,
+							"id": 1409,
 							"name": "className",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2447,12 +2447,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1459,
+								"id": 1409,
 								"name": "HTMLAttributes.className"
 							}
 						},
 						{
-							"id": 1487,
+							"id": 1437,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2482,12 +2482,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1487,
+								"id": 1437,
 								"name": "HTMLAttributes.color"
 							}
 						},
 						{
-							"id": 1460,
+							"id": 1410,
 							"name": "contentEditable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2517,12 +2517,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1460,
+								"id": 1410,
 								"name": "HTMLAttributes.contentEditable"
 							}
 						},
 						{
-							"id": 1461,
+							"id": 1411,
 							"name": "contextMenu",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2552,12 +2552,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1461,
+								"id": 1411,
 								"name": "HTMLAttributes.contextMenu"
 							}
 						},
 						{
-							"id": 1547,
+							"id": 1497,
 							"name": "dangerouslySetInnerHTML",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2582,7 +2582,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1548,
+											"id": 1498,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -2591,7 +2591,7 @@
 											},
 											"children": [
 												{
-													"id": 1549,
+													"id": 1499,
 													"name": "__html",
 													"kind": 32,
 													"kindString": "Variable",
@@ -2616,7 +2616,7 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1549
+														1499
 													]
 												}
 											]
@@ -2626,12 +2626,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1547,
+								"id": 1497,
 								"name": "DOMAttributes.dangerouslySetInnerHTML"
 							}
 						},
 						{
-							"id": 1477,
+							"id": 1427,
 							"name": "datatype",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2661,12 +2661,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1477,
+								"id": 1427,
 								"name": "HTMLAttributes.datatype"
 							}
 						},
 						{
-							"id": 1454,
+							"id": 1404,
 							"name": "defaultChecked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2700,12 +2700,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1454,
+								"id": 1404,
 								"name": "HTMLAttributes.defaultChecked"
 							}
 						},
 						{
-							"id": 1455,
+							"id": 1405,
 							"name": "defaultValue",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2745,12 +2745,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1455,
+								"id": 1405,
 								"name": "HTMLAttributes.defaultValue"
 							}
 						},
 						{
-							"id": 1462,
+							"id": 1412,
 							"name": "dir",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2780,12 +2780,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1462,
+								"id": 1412,
 								"name": "HTMLAttributes.dir"
 							}
 						},
 						{
-							"id": 1444,
+							"id": 1394,
 							"name": "disabled",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2819,12 +2819,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1444,
+								"id": 1394,
 								"name": "ButtonHTMLAttributes.disabled"
 							}
 						},
 						{
-							"id": 1463,
+							"id": 1413,
 							"name": "draggable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2845,12 +2845,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1463,
+								"id": 1413,
 								"name": "HTMLAttributes.draggable"
 							}
 						},
 						{
-							"id": 1445,
+							"id": 1395,
 							"name": "form",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2880,12 +2880,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1445,
+								"id": 1395,
 								"name": "ButtonHTMLAttributes.form"
 							}
 						},
 						{
-							"id": 1446,
+							"id": 1396,
 							"name": "formAction",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2915,12 +2915,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1446,
+								"id": 1396,
 								"name": "ButtonHTMLAttributes.formAction"
 							}
 						},
 						{
-							"id": 1447,
+							"id": 1397,
 							"name": "formEncType",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2950,12 +2950,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1447,
+								"id": 1397,
 								"name": "ButtonHTMLAttributes.formEncType"
 							}
 						},
 						{
-							"id": 1448,
+							"id": 1398,
 							"name": "formMethod",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2985,12 +2985,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1448,
+								"id": 1398,
 								"name": "ButtonHTMLAttributes.formMethod"
 							}
 						},
 						{
-							"id": 1449,
+							"id": 1399,
 							"name": "formNoValidate",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3024,12 +3024,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1449,
+								"id": 1399,
 								"name": "ButtonHTMLAttributes.formNoValidate"
 							}
 						},
 						{
-							"id": 1450,
+							"id": 1400,
 							"name": "formTarget",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3059,12 +3059,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1450,
+								"id": 1400,
 								"name": "ButtonHTMLAttributes.formTarget"
 							}
 						},
 						{
-							"id": 1464,
+							"id": 1414,
 							"name": "hidden",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3098,12 +3098,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1464,
+								"id": 1414,
 								"name": "HTMLAttributes.hidden"
 							}
 						},
 						{
-							"id": 1465,
+							"id": 1415,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3133,12 +3133,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1465,
+								"id": 1415,
 								"name": "HTMLAttributes.id"
 							}
 						},
 						{
-							"id": 1478,
+							"id": 1428,
 							"name": "inlist",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3159,12 +3159,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1478,
+								"id": 1428,
 								"name": "HTMLAttributes.inlist"
 							}
 						},
 						{
-							"id": 1496,
+							"id": 1446,
 							"name": "inputMode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3227,12 +3227,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1496,
+								"id": 1446,
 								"name": "HTMLAttributes.inputMode"
 							}
 						},
 						{
-							"id": 1497,
+							"id": 1447,
 							"name": "is",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3271,12 +3271,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1497,
+								"id": 1447,
 								"name": "HTMLAttributes.is"
 							}
 						},
 						{
-							"id": 1491,
+							"id": 1441,
 							"name": "itemID",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3306,12 +3306,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1491,
+								"id": 1441,
 								"name": "HTMLAttributes.itemID"
 							}
 						},
 						{
-							"id": 1488,
+							"id": 1438,
 							"name": "itemProp",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3341,12 +3341,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1488,
+								"id": 1438,
 								"name": "HTMLAttributes.itemProp"
 							}
 						},
 						{
-							"id": 1492,
+							"id": 1442,
 							"name": "itemRef",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3376,12 +3376,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1492,
+								"id": 1442,
 								"name": "HTMLAttributes.itemRef"
 							}
 						},
 						{
-							"id": 1489,
+							"id": 1439,
 							"name": "itemScope",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3415,12 +3415,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1489,
+								"id": 1439,
 								"name": "HTMLAttributes.itemScope"
 							}
 						},
 						{
-							"id": 1490,
+							"id": 1440,
 							"name": "itemType",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3450,12 +3450,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1490,
+								"id": 1440,
 								"name": "HTMLAttributes.itemType"
 							}
 						},
 						{
-							"id": 1441,
+							"id": 1391,
 							"name": "kind",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3485,7 +3485,7 @@
 							}
 						},
 						{
-							"id": 1466,
+							"id": 1416,
 							"name": "lang",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3515,12 +3515,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1466,
+								"id": 1416,
 								"name": "HTMLAttributes.lang"
 							}
 						},
 						{
-							"id": 1442,
+							"id": 1392,
 							"name": "loading",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3554,7 +3554,7 @@
 							}
 						},
 						{
-							"id": 1451,
+							"id": 1401,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3584,12 +3584,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1451,
+								"id": 1401,
 								"name": "ButtonHTMLAttributes.name"
 							}
 						},
 						{
-							"id": 1588,
+							"id": 1538,
 							"name": "onAbort",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3616,12 +3616,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1588,
+								"id": 1538,
 								"name": "DOMAttributes.onAbort"
 							}
 						},
 						{
-							"id": 1589,
+							"id": 1539,
 							"name": "onAbortCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3648,12 +3648,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1589,
+								"id": 1539,
 								"name": "DOMAttributes.onAbortCapture"
 							}
 						},
 						{
-							"id": 1704,
+							"id": 1654,
 							"name": "onAnimationEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3680,12 +3680,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1704,
+								"id": 1654,
 								"name": "DOMAttributes.onAnimationEnd"
 							}
 						},
 						{
-							"id": 1705,
+							"id": 1655,
 							"name": "onAnimationEndCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3712,12 +3712,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1705,
+								"id": 1655,
 								"name": "DOMAttributes.onAnimationEndCapture"
 							}
 						},
 						{
-							"id": 1706,
+							"id": 1656,
 							"name": "onAnimationIteration",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3744,12 +3744,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1706,
+								"id": 1656,
 								"name": "DOMAttributes.onAnimationIteration"
 							}
 						},
 						{
-							"id": 1707,
+							"id": 1657,
 							"name": "onAnimationIterationCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3776,12 +3776,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1707,
+								"id": 1657,
 								"name": "DOMAttributes.onAnimationIterationCapture"
 							}
 						},
 						{
-							"id": 1702,
+							"id": 1652,
 							"name": "onAnimationStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3808,12 +3808,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1702,
+								"id": 1652,
 								"name": "DOMAttributes.onAnimationStart"
 							}
 						},
 						{
-							"id": 1703,
+							"id": 1653,
 							"name": "onAnimationStartCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3840,12 +3840,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1703,
+								"id": 1653,
 								"name": "DOMAttributes.onAnimationStartCapture"
 							}
 						},
 						{
-							"id": 1632,
+							"id": 1582,
 							"name": "onAuxClick",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3872,12 +3872,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1632,
+								"id": 1582,
 								"name": "DOMAttributes.onAuxClick"
 							}
 						},
 						{
-							"id": 1633,
+							"id": 1583,
 							"name": "onAuxClickCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3904,12 +3904,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1633,
+								"id": 1583,
 								"name": "DOMAttributes.onAuxClickCapture"
 							}
 						},
 						{
-							"id": 1568,
+							"id": 1518,
 							"name": "onBeforeInput",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3936,12 +3936,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1568,
+								"id": 1518,
 								"name": "DOMAttributes.onBeforeInput"
 							}
 						},
 						{
-							"id": 1569,
+							"id": 1519,
 							"name": "onBeforeInputCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3968,12 +3968,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1569,
+								"id": 1519,
 								"name": "DOMAttributes.onBeforeInputCapture"
 							}
 						},
 						{
-							"id": 1564,
+							"id": 1514,
 							"name": "onBlur",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4000,12 +4000,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1564,
+								"id": 1514,
 								"name": "DOMAttributes.onBlur"
 							}
 						},
 						{
-							"id": 1565,
+							"id": 1515,
 							"name": "onBlurCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4032,12 +4032,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1565,
+								"id": 1515,
 								"name": "DOMAttributes.onBlurCapture"
 							}
 						},
 						{
-							"id": 1590,
+							"id": 1540,
 							"name": "onCanPlay",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4064,12 +4064,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1590,
+								"id": 1540,
 								"name": "DOMAttributes.onCanPlay"
 							}
 						},
 						{
-							"id": 1591,
+							"id": 1541,
 							"name": "onCanPlayCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4096,12 +4096,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1591,
+								"id": 1541,
 								"name": "DOMAttributes.onCanPlayCapture"
 							}
 						},
 						{
-							"id": 1592,
+							"id": 1542,
 							"name": "onCanPlayThrough",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4128,12 +4128,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1592,
+								"id": 1542,
 								"name": "DOMAttributes.onCanPlayThrough"
 							}
 						},
 						{
-							"id": 1593,
+							"id": 1543,
 							"name": "onCanPlayThroughCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4160,12 +4160,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1593,
+								"id": 1543,
 								"name": "DOMAttributes.onCanPlayThroughCapture"
 							}
 						},
 						{
-							"id": 1566,
+							"id": 1516,
 							"name": "onChange",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4192,12 +4192,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1566,
+								"id": 1516,
 								"name": "DOMAttributes.onChange"
 							}
 						},
 						{
-							"id": 1567,
+							"id": 1517,
 							"name": "onChangeCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4224,12 +4224,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1567,
+								"id": 1517,
 								"name": "DOMAttributes.onChangeCapture"
 							}
 						},
 						{
-							"id": 1634,
+							"id": 1584,
 							"name": "onClick",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4256,12 +4256,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1634,
+								"id": 1584,
 								"name": "DOMAttributes.onClick"
 							}
 						},
 						{
-							"id": 1635,
+							"id": 1585,
 							"name": "onClickCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4288,12 +4288,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1635,
+								"id": 1585,
 								"name": "DOMAttributes.onClickCapture"
 							}
 						},
 						{
-							"id": 1556,
+							"id": 1506,
 							"name": "onCompositionEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4320,12 +4320,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1556,
+								"id": 1506,
 								"name": "DOMAttributes.onCompositionEnd"
 							}
 						},
 						{
-							"id": 1557,
+							"id": 1507,
 							"name": "onCompositionEndCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4352,12 +4352,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1557,
+								"id": 1507,
 								"name": "DOMAttributes.onCompositionEndCapture"
 							}
 						},
 						{
-							"id": 1558,
+							"id": 1508,
 							"name": "onCompositionStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4384,12 +4384,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1558,
+								"id": 1508,
 								"name": "DOMAttributes.onCompositionStart"
 							}
 						},
 						{
-							"id": 1559,
+							"id": 1509,
 							"name": "onCompositionStartCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4416,12 +4416,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1559,
+								"id": 1509,
 								"name": "DOMAttributes.onCompositionStartCapture"
 							}
 						},
 						{
-							"id": 1560,
+							"id": 1510,
 							"name": "onCompositionUpdate",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4448,12 +4448,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1560,
+								"id": 1510,
 								"name": "DOMAttributes.onCompositionUpdate"
 							}
 						},
 						{
-							"id": 1561,
+							"id": 1511,
 							"name": "onCompositionUpdateCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4480,12 +4480,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1561,
+								"id": 1511,
 								"name": "DOMAttributes.onCompositionUpdateCapture"
 							}
 						},
 						{
-							"id": 1636,
+							"id": 1586,
 							"name": "onContextMenu",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4512,12 +4512,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1636,
+								"id": 1586,
 								"name": "DOMAttributes.onContextMenu"
 							}
 						},
 						{
-							"id": 1637,
+							"id": 1587,
 							"name": "onContextMenuCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4544,12 +4544,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1637,
+								"id": 1587,
 								"name": "DOMAttributes.onContextMenuCapture"
 							}
 						},
 						{
-							"id": 1550,
+							"id": 1500,
 							"name": "onCopy",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4576,12 +4576,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1550,
+								"id": 1500,
 								"name": "DOMAttributes.onCopy"
 							}
 						},
 						{
-							"id": 1551,
+							"id": 1501,
 							"name": "onCopyCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4608,12 +4608,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1551,
+								"id": 1501,
 								"name": "DOMAttributes.onCopyCapture"
 							}
 						},
 						{
-							"id": 1552,
+							"id": 1502,
 							"name": "onCut",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4640,12 +4640,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1552,
+								"id": 1502,
 								"name": "DOMAttributes.onCut"
 							}
 						},
 						{
-							"id": 1553,
+							"id": 1503,
 							"name": "onCutCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4672,12 +4672,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1553,
+								"id": 1503,
 								"name": "DOMAttributes.onCutCapture"
 							}
 						},
 						{
-							"id": 1638,
+							"id": 1588,
 							"name": "onDoubleClick",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4704,12 +4704,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1638,
+								"id": 1588,
 								"name": "DOMAttributes.onDoubleClick"
 							}
 						},
 						{
-							"id": 1639,
+							"id": 1589,
 							"name": "onDoubleClickCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4736,12 +4736,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1639,
+								"id": 1589,
 								"name": "DOMAttributes.onDoubleClickCapture"
 							}
 						},
 						{
-							"id": 1640,
+							"id": 1590,
 							"name": "onDrag",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4768,12 +4768,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1640,
+								"id": 1590,
 								"name": "DOMAttributes.onDrag"
 							}
 						},
 						{
-							"id": 1641,
+							"id": 1591,
 							"name": "onDragCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4800,12 +4800,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1641,
+								"id": 1591,
 								"name": "DOMAttributes.onDragCapture"
 							}
 						},
 						{
-							"id": 1642,
+							"id": 1592,
 							"name": "onDragEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4832,12 +4832,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1642,
+								"id": 1592,
 								"name": "DOMAttributes.onDragEnd"
 							}
 						},
 						{
-							"id": 1643,
+							"id": 1593,
 							"name": "onDragEndCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4864,12 +4864,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1643,
+								"id": 1593,
 								"name": "DOMAttributes.onDragEndCapture"
 							}
 						},
 						{
-							"id": 1644,
+							"id": 1594,
 							"name": "onDragEnter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4896,12 +4896,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1644,
+								"id": 1594,
 								"name": "DOMAttributes.onDragEnter"
 							}
 						},
 						{
-							"id": 1645,
+							"id": 1595,
 							"name": "onDragEnterCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4928,12 +4928,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1645,
+								"id": 1595,
 								"name": "DOMAttributes.onDragEnterCapture"
 							}
 						},
 						{
-							"id": 1646,
+							"id": 1596,
 							"name": "onDragExit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4960,12 +4960,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1646,
+								"id": 1596,
 								"name": "DOMAttributes.onDragExit"
 							}
 						},
 						{
-							"id": 1647,
+							"id": 1597,
 							"name": "onDragExitCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4992,12 +4992,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1647,
+								"id": 1597,
 								"name": "DOMAttributes.onDragExitCapture"
 							}
 						},
 						{
-							"id": 1648,
+							"id": 1598,
 							"name": "onDragLeave",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5024,12 +5024,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1648,
+								"id": 1598,
 								"name": "DOMAttributes.onDragLeave"
 							}
 						},
 						{
-							"id": 1649,
+							"id": 1599,
 							"name": "onDragLeaveCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5056,12 +5056,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1649,
+								"id": 1599,
 								"name": "DOMAttributes.onDragLeaveCapture"
 							}
 						},
 						{
-							"id": 1650,
+							"id": 1600,
 							"name": "onDragOver",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5088,12 +5088,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1650,
+								"id": 1600,
 								"name": "DOMAttributes.onDragOver"
 							}
 						},
 						{
-							"id": 1651,
+							"id": 1601,
 							"name": "onDragOverCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5120,12 +5120,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1651,
+								"id": 1601,
 								"name": "DOMAttributes.onDragOverCapture"
 							}
 						},
 						{
-							"id": 1652,
+							"id": 1602,
 							"name": "onDragStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5152,12 +5152,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1652,
+								"id": 1602,
 								"name": "DOMAttributes.onDragStart"
 							}
 						},
 						{
-							"id": 1653,
+							"id": 1603,
 							"name": "onDragStartCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5184,12 +5184,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1653,
+								"id": 1603,
 								"name": "DOMAttributes.onDragStartCapture"
 							}
 						},
 						{
-							"id": 1654,
+							"id": 1604,
 							"name": "onDrop",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5216,12 +5216,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1654,
+								"id": 1604,
 								"name": "DOMAttributes.onDrop"
 							}
 						},
 						{
-							"id": 1655,
+							"id": 1605,
 							"name": "onDropCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5248,12 +5248,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1655,
+								"id": 1605,
 								"name": "DOMAttributes.onDropCapture"
 							}
 						},
 						{
-							"id": 1594,
+							"id": 1544,
 							"name": "onDurationChange",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5280,12 +5280,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1594,
+								"id": 1544,
 								"name": "DOMAttributes.onDurationChange"
 							}
 						},
 						{
-							"id": 1595,
+							"id": 1545,
 							"name": "onDurationChangeCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5312,12 +5312,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1595,
+								"id": 1545,
 								"name": "DOMAttributes.onDurationChangeCapture"
 							}
 						},
 						{
-							"id": 1596,
+							"id": 1546,
 							"name": "onEmptied",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5344,12 +5344,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1596,
+								"id": 1546,
 								"name": "DOMAttributes.onEmptied"
 							}
 						},
 						{
-							"id": 1597,
+							"id": 1547,
 							"name": "onEmptiedCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5376,12 +5376,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1597,
+								"id": 1547,
 								"name": "DOMAttributes.onEmptiedCapture"
 							}
 						},
 						{
-							"id": 1598,
+							"id": 1548,
 							"name": "onEncrypted",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5408,12 +5408,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1598,
+								"id": 1548,
 								"name": "DOMAttributes.onEncrypted"
 							}
 						},
 						{
-							"id": 1599,
+							"id": 1549,
 							"name": "onEncryptedCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5440,12 +5440,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1599,
+								"id": 1549,
 								"name": "DOMAttributes.onEncryptedCapture"
 							}
 						},
 						{
-							"id": 1600,
+							"id": 1550,
 							"name": "onEnded",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5472,12 +5472,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1600,
+								"id": 1550,
 								"name": "DOMAttributes.onEnded"
 							}
 						},
 						{
-							"id": 1601,
+							"id": 1551,
 							"name": "onEndedCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5504,12 +5504,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1601,
+								"id": 1551,
 								"name": "DOMAttributes.onEndedCapture"
 							}
 						},
 						{
-							"id": 1580,
+							"id": 1530,
 							"name": "onError",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5536,12 +5536,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1580,
+								"id": 1530,
 								"name": "DOMAttributes.onError"
 							}
 						},
 						{
-							"id": 1581,
+							"id": 1531,
 							"name": "onErrorCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5568,12 +5568,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1581,
+								"id": 1531,
 								"name": "DOMAttributes.onErrorCapture"
 							}
 						},
 						{
-							"id": 1562,
+							"id": 1512,
 							"name": "onFocus",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5600,12 +5600,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1562,
+								"id": 1512,
 								"name": "DOMAttributes.onFocus"
 							}
 						},
 						{
-							"id": 1563,
+							"id": 1513,
 							"name": "onFocusCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5632,12 +5632,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1563,
+								"id": 1513,
 								"name": "DOMAttributes.onFocusCapture"
 							}
 						},
 						{
-							"id": 1694,
+							"id": 1644,
 							"name": "onGotPointerCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5664,12 +5664,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1694,
+								"id": 1644,
 								"name": "DOMAttributes.onGotPointerCapture"
 							}
 						},
 						{
-							"id": 1695,
+							"id": 1645,
 							"name": "onGotPointerCaptureCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5696,12 +5696,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1695,
+								"id": 1645,
 								"name": "DOMAttributes.onGotPointerCaptureCapture"
 							}
 						},
 						{
-							"id": 1570,
+							"id": 1520,
 							"name": "onInput",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5728,12 +5728,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1570,
+								"id": 1520,
 								"name": "DOMAttributes.onInput"
 							}
 						},
 						{
-							"id": 1571,
+							"id": 1521,
 							"name": "onInputCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5760,12 +5760,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1571,
+								"id": 1521,
 								"name": "DOMAttributes.onInputCapture"
 							}
 						},
 						{
-							"id": 1576,
+							"id": 1526,
 							"name": "onInvalid",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5792,12 +5792,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1576,
+								"id": 1526,
 								"name": "DOMAttributes.onInvalid"
 							}
 						},
 						{
-							"id": 1577,
+							"id": 1527,
 							"name": "onInvalidCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5824,12 +5824,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1577,
+								"id": 1527,
 								"name": "DOMAttributes.onInvalidCapture"
 							}
 						},
 						{
-							"id": 1582,
+							"id": 1532,
 							"name": "onKeyDown",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5856,12 +5856,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1582,
+								"id": 1532,
 								"name": "DOMAttributes.onKeyDown"
 							}
 						},
 						{
-							"id": 1583,
+							"id": 1533,
 							"name": "onKeyDownCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5888,12 +5888,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1583,
+								"id": 1533,
 								"name": "DOMAttributes.onKeyDownCapture"
 							}
 						},
 						{
-							"id": 1584,
+							"id": 1534,
 							"name": "onKeyPress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5920,12 +5920,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1584,
+								"id": 1534,
 								"name": "DOMAttributes.onKeyPress"
 							}
 						},
 						{
-							"id": 1585,
+							"id": 1535,
 							"name": "onKeyPressCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5952,12 +5952,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1585,
+								"id": 1535,
 								"name": "DOMAttributes.onKeyPressCapture"
 							}
 						},
 						{
-							"id": 1586,
+							"id": 1536,
 							"name": "onKeyUp",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5984,12 +5984,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1586,
+								"id": 1536,
 								"name": "DOMAttributes.onKeyUp"
 							}
 						},
 						{
-							"id": 1587,
+							"id": 1537,
 							"name": "onKeyUpCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6016,12 +6016,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1587,
+								"id": 1537,
 								"name": "DOMAttributes.onKeyUpCapture"
 							}
 						},
 						{
-							"id": 1578,
+							"id": 1528,
 							"name": "onLoad",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6048,12 +6048,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1578,
+								"id": 1528,
 								"name": "DOMAttributes.onLoad"
 							}
 						},
 						{
-							"id": 1579,
+							"id": 1529,
 							"name": "onLoadCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6080,12 +6080,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1579,
+								"id": 1529,
 								"name": "DOMAttributes.onLoadCapture"
 							}
 						},
 						{
-							"id": 1606,
+							"id": 1556,
 							"name": "onLoadStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6112,12 +6112,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1606,
+								"id": 1556,
 								"name": "DOMAttributes.onLoadStart"
 							}
 						},
 						{
-							"id": 1607,
+							"id": 1557,
 							"name": "onLoadStartCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6144,12 +6144,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1607,
+								"id": 1557,
 								"name": "DOMAttributes.onLoadStartCapture"
 							}
 						},
 						{
-							"id": 1602,
+							"id": 1552,
 							"name": "onLoadedData",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6176,12 +6176,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1602,
+								"id": 1552,
 								"name": "DOMAttributes.onLoadedData"
 							}
 						},
 						{
-							"id": 1603,
+							"id": 1553,
 							"name": "onLoadedDataCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6208,12 +6208,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1603,
+								"id": 1553,
 								"name": "DOMAttributes.onLoadedDataCapture"
 							}
 						},
 						{
-							"id": 1604,
+							"id": 1554,
 							"name": "onLoadedMetadata",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6240,12 +6240,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1604,
+								"id": 1554,
 								"name": "DOMAttributes.onLoadedMetadata"
 							}
 						},
 						{
-							"id": 1605,
+							"id": 1555,
 							"name": "onLoadedMetadataCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6272,12 +6272,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1605,
+								"id": 1555,
 								"name": "DOMAttributes.onLoadedMetadataCapture"
 							}
 						},
 						{
-							"id": 1696,
+							"id": 1646,
 							"name": "onLostPointerCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6304,12 +6304,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1696,
+								"id": 1646,
 								"name": "DOMAttributes.onLostPointerCapture"
 							}
 						},
 						{
-							"id": 1697,
+							"id": 1647,
 							"name": "onLostPointerCaptureCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6336,12 +6336,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1697,
+								"id": 1647,
 								"name": "DOMAttributes.onLostPointerCaptureCapture"
 							}
 						},
 						{
-							"id": 1656,
+							"id": 1606,
 							"name": "onMouseDown",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6368,12 +6368,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1656,
+								"id": 1606,
 								"name": "DOMAttributes.onMouseDown"
 							}
 						},
 						{
-							"id": 1657,
+							"id": 1607,
 							"name": "onMouseDownCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6400,12 +6400,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1657,
+								"id": 1607,
 								"name": "DOMAttributes.onMouseDownCapture"
 							}
 						},
 						{
-							"id": 1658,
+							"id": 1608,
 							"name": "onMouseEnter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6432,12 +6432,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1658,
+								"id": 1608,
 								"name": "DOMAttributes.onMouseEnter"
 							}
 						},
 						{
-							"id": 1659,
+							"id": 1609,
 							"name": "onMouseLeave",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6464,12 +6464,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1659,
+								"id": 1609,
 								"name": "DOMAttributes.onMouseLeave"
 							}
 						},
 						{
-							"id": 1660,
+							"id": 1610,
 							"name": "onMouseMove",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6496,12 +6496,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1660,
+								"id": 1610,
 								"name": "DOMAttributes.onMouseMove"
 							}
 						},
 						{
-							"id": 1661,
+							"id": 1611,
 							"name": "onMouseMoveCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6528,12 +6528,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1661,
+								"id": 1611,
 								"name": "DOMAttributes.onMouseMoveCapture"
 							}
 						},
 						{
-							"id": 1662,
+							"id": 1612,
 							"name": "onMouseOut",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6560,12 +6560,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1662,
+								"id": 1612,
 								"name": "DOMAttributes.onMouseOut"
 							}
 						},
 						{
-							"id": 1663,
+							"id": 1613,
 							"name": "onMouseOutCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6592,12 +6592,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1663,
+								"id": 1613,
 								"name": "DOMAttributes.onMouseOutCapture"
 							}
 						},
 						{
-							"id": 1664,
+							"id": 1614,
 							"name": "onMouseOver",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6624,12 +6624,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1664,
+								"id": 1614,
 								"name": "DOMAttributes.onMouseOver"
 							}
 						},
 						{
-							"id": 1665,
+							"id": 1615,
 							"name": "onMouseOverCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6656,12 +6656,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1665,
+								"id": 1615,
 								"name": "DOMAttributes.onMouseOverCapture"
 							}
 						},
 						{
-							"id": 1666,
+							"id": 1616,
 							"name": "onMouseUp",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6688,12 +6688,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1666,
+								"id": 1616,
 								"name": "DOMAttributes.onMouseUp"
 							}
 						},
 						{
-							"id": 1667,
+							"id": 1617,
 							"name": "onMouseUpCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6720,12 +6720,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1667,
+								"id": 1617,
 								"name": "DOMAttributes.onMouseUpCapture"
 							}
 						},
 						{
-							"id": 1554,
+							"id": 1504,
 							"name": "onPaste",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6752,12 +6752,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1554,
+								"id": 1504,
 								"name": "DOMAttributes.onPaste"
 							}
 						},
 						{
-							"id": 1555,
+							"id": 1505,
 							"name": "onPasteCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6784,12 +6784,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1555,
+								"id": 1505,
 								"name": "DOMAttributes.onPasteCapture"
 							}
 						},
 						{
-							"id": 1608,
+							"id": 1558,
 							"name": "onPause",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6816,12 +6816,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1608,
+								"id": 1558,
 								"name": "DOMAttributes.onPause"
 							}
 						},
 						{
-							"id": 1609,
+							"id": 1559,
 							"name": "onPauseCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6848,12 +6848,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1609,
+								"id": 1559,
 								"name": "DOMAttributes.onPauseCapture"
 							}
 						},
 						{
-							"id": 1610,
+							"id": 1560,
 							"name": "onPlay",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6880,12 +6880,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1610,
+								"id": 1560,
 								"name": "DOMAttributes.onPlay"
 							}
 						},
 						{
-							"id": 1611,
+							"id": 1561,
 							"name": "onPlayCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6912,12 +6912,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1611,
+								"id": 1561,
 								"name": "DOMAttributes.onPlayCapture"
 							}
 						},
 						{
-							"id": 1612,
+							"id": 1562,
 							"name": "onPlaying",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6944,12 +6944,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1612,
+								"id": 1562,
 								"name": "DOMAttributes.onPlaying"
 							}
 						},
 						{
-							"id": 1613,
+							"id": 1563,
 							"name": "onPlayingCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6976,12 +6976,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1613,
+								"id": 1563,
 								"name": "DOMAttributes.onPlayingCapture"
 							}
 						},
 						{
-							"id": 1684,
+							"id": 1634,
 							"name": "onPointerCancel",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7008,12 +7008,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1684,
+								"id": 1634,
 								"name": "DOMAttributes.onPointerCancel"
 							}
 						},
 						{
-							"id": 1685,
+							"id": 1635,
 							"name": "onPointerCancelCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7040,12 +7040,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1685,
+								"id": 1635,
 								"name": "DOMAttributes.onPointerCancelCapture"
 							}
 						},
 						{
-							"id": 1678,
+							"id": 1628,
 							"name": "onPointerDown",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7072,12 +7072,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1678,
+								"id": 1628,
 								"name": "DOMAttributes.onPointerDown"
 							}
 						},
 						{
-							"id": 1679,
+							"id": 1629,
 							"name": "onPointerDownCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7104,12 +7104,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1679,
+								"id": 1629,
 								"name": "DOMAttributes.onPointerDownCapture"
 							}
 						},
 						{
-							"id": 1686,
+							"id": 1636,
 							"name": "onPointerEnter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7136,12 +7136,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1686,
+								"id": 1636,
 								"name": "DOMAttributes.onPointerEnter"
 							}
 						},
 						{
-							"id": 1687,
+							"id": 1637,
 							"name": "onPointerEnterCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7168,12 +7168,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1687,
+								"id": 1637,
 								"name": "DOMAttributes.onPointerEnterCapture"
 							}
 						},
 						{
-							"id": 1688,
+							"id": 1638,
 							"name": "onPointerLeave",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7200,12 +7200,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1688,
+								"id": 1638,
 								"name": "DOMAttributes.onPointerLeave"
 							}
 						},
 						{
-							"id": 1689,
+							"id": 1639,
 							"name": "onPointerLeaveCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7232,12 +7232,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1689,
+								"id": 1639,
 								"name": "DOMAttributes.onPointerLeaveCapture"
 							}
 						},
 						{
-							"id": 1680,
+							"id": 1630,
 							"name": "onPointerMove",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7264,12 +7264,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1680,
+								"id": 1630,
 								"name": "DOMAttributes.onPointerMove"
 							}
 						},
 						{
-							"id": 1681,
+							"id": 1631,
 							"name": "onPointerMoveCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7296,12 +7296,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1681,
+								"id": 1631,
 								"name": "DOMAttributes.onPointerMoveCapture"
 							}
 						},
 						{
-							"id": 1692,
+							"id": 1642,
 							"name": "onPointerOut",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7328,12 +7328,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1692,
+								"id": 1642,
 								"name": "DOMAttributes.onPointerOut"
 							}
 						},
 						{
-							"id": 1693,
+							"id": 1643,
 							"name": "onPointerOutCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7360,12 +7360,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1693,
+								"id": 1643,
 								"name": "DOMAttributes.onPointerOutCapture"
 							}
 						},
 						{
-							"id": 1690,
+							"id": 1640,
 							"name": "onPointerOver",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7392,12 +7392,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1690,
+								"id": 1640,
 								"name": "DOMAttributes.onPointerOver"
 							}
 						},
 						{
-							"id": 1691,
+							"id": 1641,
 							"name": "onPointerOverCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7424,12 +7424,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1691,
+								"id": 1641,
 								"name": "DOMAttributes.onPointerOverCapture"
 							}
 						},
 						{
-							"id": 1682,
+							"id": 1632,
 							"name": "onPointerUp",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7456,12 +7456,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1682,
+								"id": 1632,
 								"name": "DOMAttributes.onPointerUp"
 							}
 						},
 						{
-							"id": 1683,
+							"id": 1633,
 							"name": "onPointerUpCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7488,12 +7488,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1683,
+								"id": 1633,
 								"name": "DOMAttributes.onPointerUpCapture"
 							}
 						},
 						{
-							"id": 1614,
+							"id": 1564,
 							"name": "onProgress",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7520,12 +7520,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1614,
+								"id": 1564,
 								"name": "DOMAttributes.onProgress"
 							}
 						},
 						{
-							"id": 1615,
+							"id": 1565,
 							"name": "onProgressCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7552,12 +7552,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1615,
+								"id": 1565,
 								"name": "DOMAttributes.onProgressCapture"
 							}
 						},
 						{
-							"id": 1616,
+							"id": 1566,
 							"name": "onRateChange",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7584,12 +7584,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1616,
+								"id": 1566,
 								"name": "DOMAttributes.onRateChange"
 							}
 						},
 						{
-							"id": 1617,
+							"id": 1567,
 							"name": "onRateChangeCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7616,12 +7616,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1617,
+								"id": 1567,
 								"name": "DOMAttributes.onRateChangeCapture"
 							}
 						},
 						{
-							"id": 1572,
+							"id": 1522,
 							"name": "onReset",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7648,12 +7648,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1572,
+								"id": 1522,
 								"name": "DOMAttributes.onReset"
 							}
 						},
 						{
-							"id": 1573,
+							"id": 1523,
 							"name": "onResetCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7680,12 +7680,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1573,
+								"id": 1523,
 								"name": "DOMAttributes.onResetCapture"
 							}
 						},
 						{
-							"id": 1698,
+							"id": 1648,
 							"name": "onScroll",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7712,12 +7712,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1698,
+								"id": 1648,
 								"name": "DOMAttributes.onScroll"
 							}
 						},
 						{
-							"id": 1699,
+							"id": 1649,
 							"name": "onScrollCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7744,12 +7744,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1699,
+								"id": 1649,
 								"name": "DOMAttributes.onScrollCapture"
 							}
 						},
 						{
-							"id": 1618,
+							"id": 1568,
 							"name": "onSeeked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7776,12 +7776,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1618,
+								"id": 1568,
 								"name": "DOMAttributes.onSeeked"
 							}
 						},
 						{
-							"id": 1619,
+							"id": 1569,
 							"name": "onSeekedCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7808,12 +7808,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1619,
+								"id": 1569,
 								"name": "DOMAttributes.onSeekedCapture"
 							}
 						},
 						{
-							"id": 1620,
+							"id": 1570,
 							"name": "onSeeking",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7840,12 +7840,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1620,
+								"id": 1570,
 								"name": "DOMAttributes.onSeeking"
 							}
 						},
 						{
-							"id": 1621,
+							"id": 1571,
 							"name": "onSeekingCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7872,12 +7872,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1621,
+								"id": 1571,
 								"name": "DOMAttributes.onSeekingCapture"
 							}
 						},
 						{
-							"id": 1668,
+							"id": 1618,
 							"name": "onSelect",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7904,12 +7904,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1668,
+								"id": 1618,
 								"name": "DOMAttributes.onSelect"
 							}
 						},
 						{
-							"id": 1669,
+							"id": 1619,
 							"name": "onSelectCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7936,12 +7936,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1669,
+								"id": 1619,
 								"name": "DOMAttributes.onSelectCapture"
 							}
 						},
 						{
-							"id": 1622,
+							"id": 1572,
 							"name": "onStalled",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7968,12 +7968,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1622,
+								"id": 1572,
 								"name": "DOMAttributes.onStalled"
 							}
 						},
 						{
-							"id": 1623,
+							"id": 1573,
 							"name": "onStalledCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8000,12 +8000,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1623,
+								"id": 1573,
 								"name": "DOMAttributes.onStalledCapture"
 							}
 						},
 						{
-							"id": 1574,
+							"id": 1524,
 							"name": "onSubmit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8032,12 +8032,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1574,
+								"id": 1524,
 								"name": "DOMAttributes.onSubmit"
 							}
 						},
 						{
-							"id": 1575,
+							"id": 1525,
 							"name": "onSubmitCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8064,12 +8064,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1575,
+								"id": 1525,
 								"name": "DOMAttributes.onSubmitCapture"
 							}
 						},
 						{
-							"id": 1624,
+							"id": 1574,
 							"name": "onSuspend",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8096,12 +8096,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1624,
+								"id": 1574,
 								"name": "DOMAttributes.onSuspend"
 							}
 						},
 						{
-							"id": 1625,
+							"id": 1575,
 							"name": "onSuspendCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8128,12 +8128,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1625,
+								"id": 1575,
 								"name": "DOMAttributes.onSuspendCapture"
 							}
 						},
 						{
-							"id": 1626,
+							"id": 1576,
 							"name": "onTimeUpdate",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8160,12 +8160,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1626,
+								"id": 1576,
 								"name": "DOMAttributes.onTimeUpdate"
 							}
 						},
 						{
-							"id": 1627,
+							"id": 1577,
 							"name": "onTimeUpdateCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8192,12 +8192,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1627,
+								"id": 1577,
 								"name": "DOMAttributes.onTimeUpdateCapture"
 							}
 						},
 						{
-							"id": 1670,
+							"id": 1620,
 							"name": "onTouchCancel",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8224,12 +8224,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1670,
+								"id": 1620,
 								"name": "DOMAttributes.onTouchCancel"
 							}
 						},
 						{
-							"id": 1671,
+							"id": 1621,
 							"name": "onTouchCancelCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8256,12 +8256,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1671,
+								"id": 1621,
 								"name": "DOMAttributes.onTouchCancelCapture"
 							}
 						},
 						{
-							"id": 1672,
+							"id": 1622,
 							"name": "onTouchEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8288,12 +8288,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1672,
+								"id": 1622,
 								"name": "DOMAttributes.onTouchEnd"
 							}
 						},
 						{
-							"id": 1673,
+							"id": 1623,
 							"name": "onTouchEndCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8320,12 +8320,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1673,
+								"id": 1623,
 								"name": "DOMAttributes.onTouchEndCapture"
 							}
 						},
 						{
-							"id": 1674,
+							"id": 1624,
 							"name": "onTouchMove",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8352,12 +8352,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1674,
+								"id": 1624,
 								"name": "DOMAttributes.onTouchMove"
 							}
 						},
 						{
-							"id": 1675,
+							"id": 1625,
 							"name": "onTouchMoveCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8384,12 +8384,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1675,
+								"id": 1625,
 								"name": "DOMAttributes.onTouchMoveCapture"
 							}
 						},
 						{
-							"id": 1676,
+							"id": 1626,
 							"name": "onTouchStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8416,12 +8416,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1676,
+								"id": 1626,
 								"name": "DOMAttributes.onTouchStart"
 							}
 						},
 						{
-							"id": 1677,
+							"id": 1627,
 							"name": "onTouchStartCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8448,12 +8448,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1677,
+								"id": 1627,
 								"name": "DOMAttributes.onTouchStartCapture"
 							}
 						},
 						{
-							"id": 1708,
+							"id": 1658,
 							"name": "onTransitionEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8480,12 +8480,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1708,
+								"id": 1658,
 								"name": "DOMAttributes.onTransitionEnd"
 							}
 						},
 						{
-							"id": 1709,
+							"id": 1659,
 							"name": "onTransitionEndCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8512,12 +8512,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1709,
+								"id": 1659,
 								"name": "DOMAttributes.onTransitionEndCapture"
 							}
 						},
 						{
-							"id": 1628,
+							"id": 1578,
 							"name": "onVolumeChange",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8544,12 +8544,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1628,
+								"id": 1578,
 								"name": "DOMAttributes.onVolumeChange"
 							}
 						},
 						{
-							"id": 1629,
+							"id": 1579,
 							"name": "onVolumeChangeCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8576,12 +8576,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1629,
+								"id": 1579,
 								"name": "DOMAttributes.onVolumeChangeCapture"
 							}
 						},
 						{
-							"id": 1630,
+							"id": 1580,
 							"name": "onWaiting",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8608,12 +8608,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1630,
+								"id": 1580,
 								"name": "DOMAttributes.onWaiting"
 							}
 						},
 						{
-							"id": 1631,
+							"id": 1581,
 							"name": "onWaitingCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8640,12 +8640,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1631,
+								"id": 1581,
 								"name": "DOMAttributes.onWaitingCapture"
 							}
 						},
 						{
-							"id": 1700,
+							"id": 1650,
 							"name": "onWheel",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8672,12 +8672,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1700,
+								"id": 1650,
 								"name": "DOMAttributes.onWheel"
 							}
 						},
 						{
-							"id": 1701,
+							"id": 1651,
 							"name": "onWheelCapture",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8704,12 +8704,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1701,
+								"id": 1651,
 								"name": "DOMAttributes.onWheelCapture"
 							}
 						},
 						{
-							"id": 1467,
+							"id": 1417,
 							"name": "placeholder",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8739,12 +8739,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1467,
+								"id": 1417,
 								"name": "HTMLAttributes.placeholder"
 							}
 						},
 						{
-							"id": 1479,
+							"id": 1429,
 							"name": "prefix",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8774,12 +8774,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1479,
+								"id": 1429,
 								"name": "HTMLAttributes.prefix"
 							}
 						},
 						{
-							"id": 1480,
+							"id": 1430,
 							"name": "property",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8809,12 +8809,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1480,
+								"id": 1430,
 								"name": "HTMLAttributes.property"
 							}
 						},
 						{
-							"id": 1474,
+							"id": 1424,
 							"name": "radioGroup",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8844,12 +8844,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1474,
+								"id": 1424,
 								"name": "HTMLAttributes.radioGroup"
 							}
 						},
 						{
-							"id": 1481,
+							"id": 1431,
 							"name": "resource",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8879,12 +8879,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1481,
+								"id": 1431,
 								"name": "HTMLAttributes.resource"
 							}
 						},
 						{
-							"id": 1493,
+							"id": 1443,
 							"name": "results",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8914,12 +8914,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1493,
+								"id": 1443,
 								"name": "HTMLAttributes.results"
 							}
 						},
 						{
-							"id": 1475,
+							"id": 1425,
 							"name": "role",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8949,12 +8949,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1475,
+								"id": 1425,
 								"name": "HTMLAttributes.role"
 							}
 						},
 						{
-							"id": 1494,
+							"id": 1444,
 							"name": "security",
 							"kind": 1024,
 							"kindString": "Property",
@@ -8984,12 +8984,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1494,
+								"id": 1444,
 								"name": "HTMLAttributes.security"
 							}
 						},
 						{
-							"id": 1468,
+							"id": 1418,
 							"name": "slot",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9019,12 +9019,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1468,
+								"id": 1418,
 								"name": "HTMLAttributes.slot"
 							}
 						},
 						{
-							"id": 1469,
+							"id": 1419,
 							"name": "spellCheck",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9045,12 +9045,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1469,
+								"id": 1419,
 								"name": "HTMLAttributes.spellCheck"
 							}
 						},
 						{
-							"id": 1470,
+							"id": 1420,
 							"name": "style",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9071,12 +9071,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1470,
+								"id": 1420,
 								"name": "HTMLAttributes.style"
 							}
 						},
 						{
-							"id": 1456,
+							"id": 1406,
 							"name": "suppressContentEditableWarning",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9110,12 +9110,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1456,
+								"id": 1406,
 								"name": "HTMLAttributes.suppressContentEditableWarning"
 							}
 						},
 						{
-							"id": 1457,
+							"id": 1407,
 							"name": "suppressHydrationWarning",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9149,12 +9149,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1457,
+								"id": 1407,
 								"name": "HTMLAttributes.suppressHydrationWarning"
 							}
 						},
 						{
-							"id": 1471,
+							"id": 1421,
 							"name": "tabIndex",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9184,12 +9184,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1471,
+								"id": 1421,
 								"name": "HTMLAttributes.tabIndex"
 							}
 						},
 						{
-							"id": 1472,
+							"id": 1422,
 							"name": "title",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9219,12 +9219,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1472,
+								"id": 1422,
 								"name": "HTMLAttributes.title"
 							}
 						},
 						{
-							"id": 1473,
+							"id": 1423,
 							"name": "translate",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9254,12 +9254,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1473,
+								"id": 1423,
 								"name": "HTMLAttributes.translate"
 							}
 						},
 						{
-							"id": 1452,
+							"id": 1402,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9293,12 +9293,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1452,
+								"id": 1402,
 								"name": "ButtonHTMLAttributes.type"
 							}
 						},
 						{
-							"id": 1482,
+							"id": 1432,
 							"name": "typeof",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9328,12 +9328,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1482,
+								"id": 1432,
 								"name": "HTMLAttributes.typeof"
 							}
 						},
 						{
-							"id": 1495,
+							"id": 1445,
 							"name": "unselectable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9363,12 +9363,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1495,
+								"id": 1445,
 								"name": "HTMLAttributes.unselectable"
 							}
 						},
 						{
-							"id": 1453,
+							"id": 1403,
 							"name": "value",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9408,12 +9408,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1453,
+								"id": 1403,
 								"name": "ButtonHTMLAttributes.value"
 							}
 						},
 						{
-							"id": 1483,
+							"id": 1433,
 							"name": "vocab",
 							"kind": 1024,
 							"kindString": "Property",
@@ -9443,7 +9443,7 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 1483,
+								"id": 1433,
 								"name": "HTMLAttributes.vocab"
 							}
 						}
@@ -9453,144 +9453,132 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1476,
+								1426,
+								1408,
+								1448,
+								1449,
+								1450,
+								1451,
+								1452,
+								1453,
+								1454,
+								1455,
+								1456,
+								1457,
 								1458,
-								1498,
-								1499,
-								1500,
-								1501,
-								1502,
-								1503,
-								1504,
-								1505,
+								1459,
+								1460,
+								1461,
+								1462,
+								1463,
+								1464,
+								1465,
+								1466,
+								1467,
+								1468,
+								1469,
+								1470,
+								1471,
+								1472,
+								1473,
+								1474,
+								1475,
+								1476,
+								1477,
+								1478,
+								1479,
+								1480,
+								1481,
+								1482,
+								1483,
+								1484,
+								1485,
+								1486,
+								1487,
+								1488,
+								1489,
+								1490,
+								1491,
+								1492,
+								1493,
+								1494,
+								1495,
+								1434,
+								1435,
+								1393,
+								1436,
+								1496,
+								1409,
+								1437,
+								1410,
+								1411,
+								1497,
+								1427,
+								1404,
+								1405,
+								1412,
+								1394,
+								1413,
+								1395,
+								1396,
+								1397,
+								1398,
+								1399,
+								1400,
+								1414,
+								1415,
+								1428,
+								1446,
+								1447,
+								1441,
+								1438,
+								1442,
+								1439,
+								1440,
+								1391,
+								1416,
+								1392,
+								1401,
+								1538,
+								1539,
+								1654,
+								1655,
+								1656,
+								1657,
+								1652,
+								1653,
+								1582,
+								1583,
+								1518,
+								1519,
+								1514,
+								1515,
+								1540,
+								1541,
+								1542,
+								1543,
+								1516,
+								1517,
+								1584,
+								1585,
 								1506,
 								1507,
 								1508,
 								1509,
 								1510,
 								1511,
-								1512,
-								1513,
-								1514,
-								1515,
-								1516,
-								1517,
-								1518,
-								1519,
-								1520,
-								1521,
-								1522,
-								1523,
-								1524,
-								1525,
-								1526,
-								1527,
-								1528,
-								1529,
-								1530,
-								1531,
-								1532,
-								1533,
-								1534,
-								1535,
-								1536,
-								1537,
-								1538,
-								1539,
-								1540,
-								1541,
-								1542,
-								1543,
-								1544,
-								1545,
-								1484,
-								1485,
-								1443,
-								1486,
-								1546,
-								1459,
-								1487,
-								1460,
-								1461,
-								1547,
-								1477,
-								1454,
-								1455,
-								1462,
-								1444,
-								1463,
-								1445,
-								1446,
-								1447,
-								1448,
-								1449,
-								1450,
-								1464,
-								1465,
-								1478,
-								1496,
-								1497,
-								1491,
-								1488,
-								1492,
-								1489,
-								1490,
-								1441,
-								1466,
-								1442,
-								1451,
+								1586,
+								1587,
+								1500,
+								1501,
+								1502,
+								1503,
 								1588,
 								1589,
-								1704,
-								1705,
-								1706,
-								1707,
-								1702,
-								1703,
-								1632,
-								1633,
-								1568,
-								1569,
-								1564,
-								1565,
 								1590,
 								1591,
 								1592,
 								1593,
-								1566,
-								1567,
-								1634,
-								1635,
-								1556,
-								1557,
-								1558,
-								1559,
-								1560,
-								1561,
-								1636,
-								1637,
-								1550,
-								1551,
-								1552,
-								1553,
-								1638,
-								1639,
-								1640,
-								1641,
-								1642,
-								1643,
-								1644,
-								1645,
-								1646,
-								1647,
-								1648,
-								1649,
-								1650,
-								1651,
-								1652,
-								1653,
-								1654,
-								1655,
 								1594,
 								1595,
 								1596,
@@ -9599,127 +9587,139 @@
 								1599,
 								1600,
 								1601,
-								1580,
-								1581,
-								1562,
-								1563,
-								1694,
-								1695,
-								1570,
-								1571,
-								1576,
-								1577,
-								1582,
-								1583,
-								1584,
-								1585,
-								1586,
-								1587,
-								1578,
-								1579,
-								1606,
-								1607,
 								1602,
 								1603,
 								1604,
 								1605,
-								1696,
-								1697,
-								1656,
-								1657,
-								1658,
-								1659,
-								1660,
-								1661,
-								1662,
-								1663,
-								1664,
-								1665,
-								1666,
-								1667,
+								1544,
+								1545,
+								1546,
+								1547,
+								1548,
+								1549,
+								1550,
+								1551,
+								1530,
+								1531,
+								1512,
+								1513,
+								1644,
+								1645,
+								1520,
+								1521,
+								1526,
+								1527,
+								1532,
+								1533,
+								1534,
+								1535,
+								1536,
+								1537,
+								1528,
+								1529,
+								1556,
+								1557,
+								1552,
+								1553,
 								1554,
 								1555,
+								1646,
+								1647,
+								1606,
+								1607,
 								1608,
 								1609,
 								1610,
 								1611,
 								1612,
 								1613,
-								1684,
-								1685,
-								1678,
-								1679,
-								1686,
-								1687,
-								1688,
-								1689,
-								1680,
-								1681,
-								1692,
-								1693,
-								1690,
-								1691,
-								1682,
-								1683,
 								1614,
 								1615,
 								1616,
 								1617,
-								1572,
-								1573,
-								1698,
-								1699,
+								1504,
+								1505,
+								1558,
+								1559,
+								1560,
+								1561,
+								1562,
+								1563,
+								1634,
+								1635,
+								1628,
+								1629,
+								1636,
+								1637,
+								1638,
+								1639,
+								1630,
+								1631,
+								1642,
+								1643,
+								1640,
+								1641,
+								1632,
+								1633,
+								1564,
+								1565,
+								1566,
+								1567,
+								1522,
+								1523,
+								1648,
+								1649,
+								1568,
+								1569,
+								1570,
+								1571,
 								1618,
 								1619,
-								1620,
-								1621,
-								1668,
-								1669,
-								1622,
-								1623,
+								1572,
+								1573,
+								1524,
+								1525,
 								1574,
 								1575,
+								1576,
+								1577,
+								1620,
+								1621,
+								1622,
+								1623,
 								1624,
 								1625,
 								1626,
 								1627,
-								1670,
-								1671,
-								1672,
-								1673,
-								1674,
-								1675,
-								1676,
-								1677,
-								1708,
-								1709,
-								1628,
-								1629,
-								1630,
-								1631,
-								1700,
-								1701,
-								1467,
-								1479,
-								1480,
-								1474,
-								1481,
-								1493,
-								1475,
-								1494,
-								1468,
-								1469,
-								1470,
-								1456,
-								1457,
-								1471,
-								1472,
-								1473,
-								1452,
-								1482,
-								1495,
-								1453,
-								1483
+								1658,
+								1659,
+								1578,
+								1579,
+								1580,
+								1581,
+								1650,
+								1651,
+								1417,
+								1429,
+								1430,
+								1424,
+								1431,
+								1443,
+								1425,
+								1444,
+								1418,
+								1419,
+								1420,
+								1406,
+								1407,
+								1421,
+								1422,
+								1423,
+								1402,
+								1432,
+								1445,
+								1403,
+								1433
 							]
 						}
 					],
@@ -9744,7 +9744,7 @@
 					]
 				},
 				{
-					"id": 1711,
+					"id": 1661,
 					"name": "DESKTOP_HEIGHT",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9765,7 +9765,7 @@
 					"defaultValue": "48"
 				},
 				{
-					"id": 1714,
+					"id": 1664,
 					"name": "DESKTOP_LINE_HEIGHT",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9786,7 +9786,7 @@
 					"defaultValue": "DESKTOP_HEIGHT - TOP_PADDING"
 				},
 				{
-					"id": 1710,
+					"id": 1660,
 					"name": "MOBILE_HEIGHT",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9807,7 +9807,7 @@
 					"defaultValue": "44"
 				},
 				{
-					"id": 1713,
+					"id": 1663,
 					"name": "MOBILE_LINE_HEIGHT",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9828,7 +9828,7 @@
 					"defaultValue": "MOBILE_HEIGHT - TOP_PADDING"
 				},
 				{
-					"id": 1729,
+					"id": 1679,
 					"name": "StyledButton",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9863,7 +9863,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1730,
+											"id": 1680,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -9880,7 +9880,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1731,
+									"id": 1681,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -9892,7 +9892,7 @@
 					"defaultValue": "styled.button<Omit<ButtonProps, 'children'>>`\n  border: 0;\n  box-sizing: border-box;\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_SEMI_BOLD};\n  height: ${MOBILE_HEIGHT}px;\n  line-height: ${MOBILE_LINE_HEIGHT}px;\n  margin: 0;\n  padding: 0;\n  padding-top: ${TOP_PADDING}px;\n  text-align: center;\n\n  ${MEDIA_QUERY.desktopMin} {\n    height: ${DESKTOP_HEIGHT}px;\n    line-height: ${DESKTOP_LINE_HEIGHT}px;\n  }\n\n  :focus {\n    outline: none;\n  }\n\n  :hover {\n    border: 0;\n    cursor: ${({ loading }) => loading ? 'not-allowed' : 'pointer'};\n  }\n\n  :disabled {\n    cursor: not-allowed;\n  }\n\n  ${({ kind, loading }) => {\n    switch (kind) {\n      case 'secondary':\n        return css`\n          ${spacing2css({ paddingX: 0.25 })};\n          background: none;\n          color: ${Colors.GREY_100};\n          letter-spacing: 0.06em;\n          position: relative;\n\n          &::before,\n          &::after {\n            border-radius: 1px;\n            content: '';\n            display: block;\n            height: 2px;\n            position: absolute;\n            top: 36px;\n            transition: ${AnimationDurations.DEFAULT}ms ease-in;\n          }\n\n          &::before {\n            background-color: ${Colors.GREY_100};\n            left: 0;\n            right: 0;\n            transition-delay: ${AnimationDelay.DEFAULT}ms;\n          }\n\n          &::after {\n            background: ${GRADIENTS.button};\n            left: 100%;\n            right: 0;\n          }\n\n          :disabled {\n            ${secondaryDisabledStyles}\n          }\n\n          ${loading ? secondaryDisabledStyles : `\n            :not(:disabled) {\n              :focus::before,\n              :hover::before {\n                right: 100%;\n                transition-delay: 0ms;\n              }\n\n              :focus::after,\n              :hover::after {\n                left: 0;\n                transition-delay: ${AnimationDelay.DEFAULT}ms;\n              }\n            }\n          `}\n        `;\n        break;\n\n      default:\n        return css`\n          background: ${GRADIENTS.button};\n          border-radius: ${MOBILE_HEIGHT / 2}px;\n          box-shadow: 0 0 0 0 transparent;\n          color: ${Colors.WHITE};\n          letter-spacing: 0.02em;\n          min-width: 180px;\n          overflow: hidden;\n          position: relative;\n\n          ${MEDIA_QUERY.desktopMin} {\n            border-radius: ${DESKTOP_HEIGHT / 2}px;\n            min-width: 200px;\n          }\n\n          :disabled {\n            background: ${Colors.GREY_010};\n            box-shadow: 0 0 0 5px ${Colors.GREY_030_050};\n            color: ${Colors.GREY_030};\n          }\n\n          &::before,\n          &::after {\n            content: '';\n            display: block;\n            height: ${DESKTOP_HEIGHT * 3}px;\n            position: absolute;\n            top: -100%;\n            transform: rotate(39deg);\n            width: 0;\n            z-index: 0;\n          }\n\n          &,\n          &::before,\n          &::after {\n            transition: ${AnimationDurations.DEFAULT}ms ease-in;\n          }\n\n          &::before {\n            background-color: ${Colors.PRIMARY};\n            left: 0;\n          }\n\n          &::after {\n            background-color: ${Colors.PRIMARY_DARK};\n            right: 0;\n          }\n\n          ${loading ? '' : `\n            :not(:disabled):focus,\n            :not(:disabled):hover {\n              box-shadow: 0 0 0 8px ${Colors.PRIMARY_LIGHT_075};\n\n              &::before,\n              &::after {\n                width: 50%;\n              }\n            }\n          `}\n        `;\n    }\n  }}\n`"
 				},
 				{
-					"id": 1732,
+					"id": 1682,
 					"name": "StyledButtonSpan",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9927,7 +9927,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1733,
+											"id": 1683,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -9944,7 +9944,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1734,
+									"id": 1684,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -9956,7 +9956,7 @@
 					"defaultValue": "styled.span`\n  position: relative;\n  z-index: 1;\n`"
 				},
 				{
-					"id": 1735,
+					"id": 1685,
 					"name": "StyledSpinnerContainer",
 					"kind": 32,
 					"kindString": "Variable",
@@ -9991,7 +9991,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1736,
+											"id": 1686,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -10008,7 +10008,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1737,
+									"id": 1687,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -10020,7 +10020,7 @@
 					"defaultValue": "styled.span`\n  display: inline-block;\n  height: 36px;\n  width: 36px;\n`"
 				},
 				{
-					"id": 1712,
+					"id": 1662,
 					"name": "TOP_PADDING",
 					"kind": 32,
 					"kindString": "Variable",
@@ -10041,7 +10041,7 @@
 					"defaultValue": "2"
 				},
 				{
-					"id": 1728,
+					"id": 1678,
 					"name": "secondaryDisabledStyles",
 					"kind": 32,
 					"kindString": "Variable",
@@ -10062,7 +10062,7 @@
 					"defaultValue": "`\n  color: ${Colors.GREY_030};\n\n  &::before {\n    background-color: ${Colors.GREY_030};\n  }\n`"
 				},
 				{
-					"id": 1715,
+					"id": 1665,
 					"name": "Button",
 					"kind": 64,
 					"kindString": "Function",
@@ -10075,7 +10075,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1716,
+							"id": 1666,
 							"name": "Button",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -10087,7 +10087,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1717,
+									"id": 1667,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -10098,7 +10098,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1718,
+											"id": 1668,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -10107,7 +10107,7 @@
 											},
 											"children": [
 												{
-													"id": 1719,
+													"id": 1669,
 													"name": "children",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10151,7 +10151,7 @@
 															{
 																"type": "reflection",
 																"declaration": {
-																	"id": 1720,
+																	"id": 1670,
 																	"name": "__type",
 																	"kind": 65536,
 																	"kindString": "Type literal",
@@ -10177,7 +10177,7 @@
 																			{
 																				"type": "reflection",
 																				"declaration": {
-																					"id": 1721,
+																					"id": 1671,
 																					"name": "__type",
 																					"kind": 65536,
 																					"kindString": "Type literal",
@@ -10186,7 +10186,7 @@
 																					},
 																					"signatures": [
 																						{
-																							"id": 1722,
+																							"id": 1672,
 																							"name": "__call",
 																							"kind": 4096,
 																							"kindString": "Call signature",
@@ -10195,7 +10195,7 @@
 																							},
 																							"parameters": [
 																								{
-																									"id": 1723,
+																									"id": 1673,
 																									"name": "props",
 																									"kind": 32768,
 																									"kindString": "Parameter",
@@ -10228,7 +10228,7 @@
 																			{
 																				"type": "reflection",
 																				"declaration": {
-																					"id": 1724,
+																					"id": 1674,
 																					"name": "__type",
 																					"kind": 65536,
 																					"kindString": "Type literal",
@@ -10254,7 +10254,7 @@
 													}
 												},
 												{
-													"id": 1725,
+													"id": 1675,
 													"name": "kind",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10284,7 +10284,7 @@
 													"defaultValue": "\"default\""
 												},
 												{
-													"id": 1726,
+													"id": 1676,
 													"name": "loading",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10305,7 +10305,7 @@
 													"defaultValue": "false"
 												},
 												{
-													"id": 1727,
+													"id": 1677,
 													"name": "props",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10321,7 +10321,7 @@
 													],
 													"type": {
 														"type": "reference",
-														"id": 1727,
+														"id": 1677,
 														"name": "props"
 													}
 												}
@@ -10331,10 +10331,10 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1719,
-														1725,
-														1726,
-														1727
+														1669,
+														1675,
+														1676,
+														1677
 													]
 												}
 											],
@@ -10369,29 +10369,29 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1440
+						1390
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1711,
-						1714,
-						1710,
-						1713,
-						1729,
-						1732,
-						1735,
-						1712,
-						1728
+						1661,
+						1664,
+						1660,
+						1663,
+						1679,
+						1682,
+						1685,
+						1662,
+						1678
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1715
+						1665
 					]
 				}
 			],
@@ -10404,7 +10404,7 @@
 			]
 		},
 		{
-			"id": 1738,
+			"id": 1688,
 			"name": "\"components/Divider/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -10414,7 +10414,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/Divider/index.tsx",
 			"children": [
 				{
-					"id": 1739,
+					"id": 1689,
 					"name": "DividerProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10423,7 +10423,7 @@
 					},
 					"children": [
 						{
-							"id": 1740,
+							"id": 1690,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10445,7 +10445,7 @@
 							}
 						},
 						{
-							"id": 1742,
+							"id": 1692,
 							"name": "size",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10467,7 +10467,7 @@
 							}
 						},
 						{
-							"id": 1741,
+							"id": 1691,
 							"name": "spacing",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10494,9 +10494,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1740,
-								1742,
-								1741
+								1690,
+								1692,
+								1691
 							]
 						}
 					],
@@ -10509,7 +10509,7 @@
 					]
 				},
 				{
-					"id": 1743,
+					"id": 1693,
 					"name": "Divider",
 					"kind": 32,
 					"kindString": "Variable",
@@ -10544,7 +10544,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1739,
+										"id": 1689,
 										"name": "DividerProps"
 									},
 									{
@@ -10557,7 +10557,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1744,
+									"id": 1694,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -10576,14 +10576,14 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1739
+						1689
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1743
+						1693
 					]
 				}
 			],
@@ -10596,7 +10596,7 @@
 			]
 		},
 		{
-			"id": 1745,
+			"id": 1695,
 			"name": "\"components/Logo/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -10606,7 +10606,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/Logo/index.tsx",
 			"children": [
 				{
-					"id": 1746,
+					"id": 1696,
 					"name": "LogoProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -10615,7 +10615,7 @@
 					},
 					"children": [
 						{
-							"id": 1747,
+							"id": 1697,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10637,7 +10637,7 @@
 							}
 						},
 						{
-							"id": 1748,
+							"id": 1698,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -10654,7 +10654,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1749,
+								"id": 1699,
 								"name": "LogoType"
 							}
 						}
@@ -10664,8 +10664,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1747,
-								1748
+								1697,
+								1698
 							]
 						}
 					],
@@ -10678,7 +10678,7 @@
 					]
 				},
 				{
-					"id": 1749,
+					"id": 1699,
 					"name": "LogoType",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -10711,7 +10711,7 @@
 					}
 				},
 				{
-					"id": 1750,
+					"id": 1700,
 					"name": "Logo",
 					"kind": 64,
 					"kindString": "Function",
@@ -10721,7 +10721,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1751,
+							"id": 1701,
 							"name": "Logo",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -10730,7 +10730,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1752,
+									"id": 1702,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -10741,7 +10741,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1753,
+											"id": 1703,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -10750,7 +10750,7 @@
 											},
 											"children": [
 												{
-													"id": 1754,
+													"id": 1704,
 													"name": "color",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10865,7 +10865,7 @@
 													}
 												},
 												{
-													"id": 1755,
+													"id": 1705,
 													"name": "type",
 													"kind": 32,
 													"kindString": "Variable",
@@ -10904,8 +10904,8 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1754,
-														1755
+														1704,
+														1705
 													]
 												}
 											],
@@ -10940,21 +10940,21 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1746
+						1696
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						1749
+						1699
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1750
+						1700
 					]
 				}
 			],
@@ -10967,7 +10967,7 @@
 			]
 		},
 		{
-			"id": 1432,
+			"id": 1382,
 			"name": "\"components/Spinner/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -10977,7 +10977,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/Spinner/index.tsx",
 			"children": [
 				{
-					"id": 1436,
+					"id": 1386,
 					"name": "StyledSpinnerSvg",
 					"kind": 32,
 					"kindString": "Variable",
@@ -11012,7 +11012,7 @@
 									{
 										"type": "reflection",
 										"declaration": {
-											"id": 1437,
+											"id": 1387,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -11029,7 +11029,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1438,
+									"id": 1388,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -11041,7 +11041,7 @@
 					"defaultValue": "Styled.svg`\n  animation: ${spinningAnimation} ${AnimationDurations.SPINNER}ms linear infinite;\n`"
 				},
 				{
-					"id": 1435,
+					"id": 1385,
 					"name": "spinningAnimation",
 					"kind": 32,
 					"kindString": "Variable",
@@ -11062,7 +11062,7 @@
 					"defaultValue": "keyframes`\n  from {\n    transform: rotate(0);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n`"
 				},
 				{
-					"id": 1433,
+					"id": 1383,
 					"name": "Spinner",
 					"kind": 64,
 					"kindString": "Function",
@@ -11072,7 +11072,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1434,
+							"id": 1384,
 							"name": "Spinner",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11099,15 +11099,15 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1436,
-						1435
+						1386,
+						1385
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1433
+						1383
 					]
 				}
 			],
@@ -11120,7 +11120,7 @@
 			]
 		},
 		{
-			"id": 1756,
+			"id": 1706,
 			"name": "\"components/icons/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -11130,7 +11130,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/icons/index.tsx",
 			"children": [
 				{
-					"id": 1757,
+					"id": 1707,
 					"name": "IconSize",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -11139,7 +11139,7 @@
 					},
 					"children": [
 						{
-							"id": 1763,
+							"id": 1713,
 							"name": "LARGE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11156,7 +11156,7 @@
 							"defaultValue": "32"
 						},
 						{
-							"id": 1762,
+							"id": 1712,
 							"name": "MEDIUM",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11173,7 +11173,7 @@
 							"defaultValue": "24"
 						},
 						{
-							"id": 1761,
+							"id": 1711,
 							"name": "SMALL",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11190,7 +11190,7 @@
 							"defaultValue": "16"
 						},
 						{
-							"id": 1766,
+							"id": 1716,
 							"name": "XXX_LARGE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11207,7 +11207,7 @@
 							"defaultValue": "56"
 						},
 						{
-							"id": 1758,
+							"id": 1708,
 							"name": "XXX_SMALL",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11224,7 +11224,7 @@
 							"defaultValue": "2"
 						},
 						{
-							"id": 1765,
+							"id": 1715,
 							"name": "XX_LARGE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11241,7 +11241,7 @@
 							"defaultValue": "48"
 						},
 						{
-							"id": 1759,
+							"id": 1709,
 							"name": "XX_SMALL",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11258,7 +11258,7 @@
 							"defaultValue": "4"
 						},
 						{
-							"id": 1764,
+							"id": 1714,
 							"name": "X_LARGE",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11275,7 +11275,7 @@
 							"defaultValue": "40"
 						},
 						{
-							"id": 1760,
+							"id": 1710,
 							"name": "X_SMALL",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -11297,15 +11297,15 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								1763,
-								1762,
-								1761,
-								1766,
-								1758,
-								1765,
-								1759,
-								1764,
-								1760
+								1713,
+								1712,
+								1711,
+								1716,
+								1708,
+								1715,
+								1709,
+								1714,
+								1710
 							]
 						}
 					],
@@ -11318,7 +11318,7 @@
 					]
 				},
 				{
-					"id": 1767,
+					"id": 1717,
 					"name": "IconProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -11327,7 +11327,7 @@
 					},
 					"children": [
 						{
-							"id": 1769,
+							"id": 1719,
 							"name": "fill",
 							"kind": 1024,
 							"kindString": "Property",
@@ -11349,7 +11349,7 @@
 							}
 						},
 						{
-							"id": 1768,
+							"id": 1718,
 							"name": "size",
 							"kind": 1024,
 							"kindString": "Property",
@@ -11366,7 +11366,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1757,
+								"id": 1707,
 								"name": "IconSize"
 							}
 						}
@@ -11376,8 +11376,8 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1769,
-								1768
+								1719,
+								1718
 							]
 						}
 					],
@@ -11390,7 +11390,7 @@
 					]
 				},
 				{
-					"id": 1770,
+					"id": 1720,
 					"name": "defaultSize",
 					"kind": 32,
 					"kindString": "Variable",
@@ -11406,14 +11406,14 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1762,
+						"id": 1712,
 						"name": "MEDIUM"
 					},
 					"defaultValue": "IconSize.MEDIUM"
 				},
 				{
-					"id": 1771,
-					"name": "IconMenu",
+					"id": 1721,
+					"name": "IconFacebook",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
@@ -11422,8 +11422,8 @@
 					},
 					"signatures": [
 						{
-							"id": 1772,
-							"name": "IconMenu",
+							"id": 1722,
+							"name": "IconFacebook",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
@@ -11431,7 +11431,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1773,
+									"id": 1723,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11442,7 +11442,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1774,
+											"id": 1724,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -11451,8 +11451,8 @@
 											},
 											"children": [
 												{
-													"id": 1776,
-													"name": "fill",
+													"id": 1725,
+													"name": "size",
 													"kind": 32,
 													"kindString": "Variable",
 													"flags": {
@@ -11462,6 +11462,198 @@
 														{
 															"fileName": "src/components/icons/index.tsx",
 															"line": 23,
+															"character": 35
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 1707,
+														"name": "IconSize"
+													},
+													"defaultValue": "defaultSize"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														1725
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/components/icons/index.tsx",
+													"line": 23,
+													"character": 29
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/components/icons/index.tsx",
+							"line": 23,
+							"character": 25
+						}
+					]
+				},
+				{
+					"id": 1726,
+					"name": "IconInstagram",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 1727,
+							"name": "IconInstagram",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 1728,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 1729,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 1730,
+													"name": "size",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "src/components/icons/index.tsx",
+															"line": 40,
+															"character": 36
+														}
+													],
+													"type": {
+														"type": "reference",
+														"id": 1707,
+														"name": "IconSize"
+													},
+													"defaultValue": "defaultSize"
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														1730
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/components/icons/index.tsx",
+													"line": 40,
+													"character": 30
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Element"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/components/icons/index.tsx",
+							"line": 40,
+							"character": 26
+						}
+					]
+				},
+				{
+					"id": 1731,
+					"name": "IconMenu",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 1732,
+							"name": "IconMenu",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 1733,
+									"name": "__namedParameters",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"originalName": "__0",
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 1734,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 1736,
+													"name": "fill",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "src/components/icons/index.tsx",
+															"line": 61,
 															"character": 51
 														}
 													],
@@ -11566,7 +11758,7 @@
 													}
 												},
 												{
-													"id": 1775,
+													"id": 1735,
 													"name": "size",
 													"kind": 32,
 													"kindString": "Variable",
@@ -11576,13 +11768,13 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 23,
+															"line": 61,
 															"character": 31
 														}
 													],
 													"type": {
 														"type": "reference",
-														"id": 1757,
+														"id": 1707,
 														"name": "IconSize"
 													},
 													"defaultValue": "defaultSize"
@@ -11593,15 +11785,15 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1776,
-														1775
+														1736,
+														1735
 													]
 												}
 											],
 											"sources": [
 												{
 													"fileName": "src/components/icons/index.tsx",
-													"line": 23,
+													"line": 61,
 													"character": 25
 												}
 											]
@@ -11618,13 +11810,13 @@
 					"sources": [
 						{
 							"fileName": "src/components/icons/index.tsx",
-							"line": 23,
+							"line": 61,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 1777,
+					"id": 1737,
 					"name": "IconProfile",
 					"kind": 64,
 					"kindString": "Function",
@@ -11634,7 +11826,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1778,
+							"id": 1738,
 							"name": "IconProfile",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11643,7 +11835,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1779,
+									"id": 1739,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11654,7 +11846,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1780,
+											"id": 1740,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -11663,7 +11855,7 @@
 											},
 											"children": [
 												{
-													"id": 1781,
+													"id": 1741,
 													"name": "size",
 													"kind": 32,
 													"kindString": "Variable",
@@ -11673,13 +11865,13 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 45,
+															"line": 83,
 															"character": 34
 														}
 													],
 													"type": {
 														"type": "reference",
-														"id": 1757,
+														"id": 1707,
 														"name": "IconSize"
 													},
 													"defaultValue": "defaultSize"
@@ -11690,14 +11882,14 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1781
+														1741
 													]
 												}
 											],
 											"sources": [
 												{
 													"fileName": "src/components/icons/index.tsx",
-													"line": 45,
+													"line": 83,
 													"character": 28
 												}
 											]
@@ -11714,13 +11906,13 @@
 					"sources": [
 						{
 							"fileName": "src/components/icons/index.tsx",
-							"line": 45,
+							"line": 83,
 							"character": 24
 						}
 					]
 				},
 				{
-					"id": 1782,
+					"id": 1742,
 					"name": "IconShoppingBasket",
 					"kind": 64,
 					"kindString": "Function",
@@ -11730,7 +11922,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1783,
+							"id": 1743,
 							"name": "IconShoppingBasket",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11739,7 +11931,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1784,
+									"id": 1744,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11750,7 +11942,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1785,
+											"id": 1745,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -11759,7 +11951,7 @@
 											},
 											"children": [
 												{
-													"id": 1787,
+													"id": 1747,
 													"name": "fill",
 													"kind": 32,
 													"kindString": "Variable",
@@ -11769,7 +11961,7 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 62,
+															"line": 100,
 															"character": 61
 														}
 													],
@@ -11874,7 +12066,7 @@
 													}
 												},
 												{
-													"id": 1786,
+													"id": 1746,
 													"name": "size",
 													"kind": 32,
 													"kindString": "Variable",
@@ -11884,13 +12076,13 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 62,
+															"line": 100,
 															"character": 41
 														}
 													],
 													"type": {
 														"type": "reference",
-														"id": 1757,
+														"id": 1707,
 														"name": "IconSize"
 													},
 													"defaultValue": "defaultSize"
@@ -11901,15 +12093,15 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1787,
-														1786
+														1747,
+														1746
 													]
 												}
 											],
 											"sources": [
 												{
 													"fileName": "src/components/icons/index.tsx",
-													"line": 62,
+													"line": 100,
 													"character": 35
 												}
 											]
@@ -11926,13 +12118,13 @@
 					"sources": [
 						{
 							"fileName": "src/components/icons/index.tsx",
-							"line": 62,
+							"line": 100,
 							"character": 31
 						}
 					]
 				},
 				{
-					"id": 1788,
+					"id": 1748,
 					"name": "IconX",
 					"kind": 64,
 					"kindString": "Function",
@@ -11942,7 +12134,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1789,
+							"id": 1749,
 							"name": "IconX",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -11951,7 +12143,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1790,
+									"id": 1750,
 									"name": "__namedParameters",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -11962,7 +12154,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 1791,
+											"id": 1751,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -11971,7 +12163,7 @@
 											},
 											"children": [
 												{
-													"id": 1793,
+													"id": 1753,
 													"name": "fill",
 													"kind": 32,
 													"kindString": "Variable",
@@ -11981,7 +12173,7 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 95,
+															"line": 133,
 															"character": 48
 														}
 													],
@@ -12086,7 +12278,7 @@
 													}
 												},
 												{
-													"id": 1792,
+													"id": 1752,
 													"name": "size",
 													"kind": 32,
 													"kindString": "Variable",
@@ -12096,13 +12288,13 @@
 													"sources": [
 														{
 															"fileName": "src/components/icons/index.tsx",
-															"line": 95,
+															"line": 133,
 															"character": 28
 														}
 													],
 													"type": {
 														"type": "reference",
-														"id": 1757,
+														"id": 1707,
 														"name": "IconSize"
 													},
 													"defaultValue": "defaultSize"
@@ -12113,15 +12305,15 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														1793,
-														1792
+														1753,
+														1752
 													]
 												}
 											],
 											"sources": [
 												{
 													"fileName": "src/components/icons/index.tsx",
-													"line": 95,
+													"line": 133,
 													"character": 22
 												}
 											]
@@ -12138,7 +12330,7 @@
 					"sources": [
 						{
 							"fileName": "src/components/icons/index.tsx",
-							"line": 95,
+							"line": 133,
 							"character": 18
 						}
 					]
@@ -12149,31 +12341,33 @@
 					"title": "Enumerations",
 					"kind": 4,
 					"children": [
-						1757
+						1707
 					]
 				},
 				{
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1767
+						1717
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1770
+						1720
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1771,
-						1777,
-						1782,
-						1788
+						1721,
+						1726,
+						1731,
+						1737,
+						1742,
+						1748
 					]
 				}
 			],
@@ -12186,7 +12380,7 @@
 			]
 		},
 		{
-			"id": 1868,
+			"id": 1828,
 			"name": "\"components/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -12196,27 +12390,27 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/index.ts",
 			"children": [
 				{
-					"id": 1897,
+					"id": 1859,
 					"name": "Body",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1864
+					"target": 1824
 				},
 				{
-					"id": 1880,
+					"id": 1842,
 					"name": "Box",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1795
+					"target": 1755
 				},
 				{
-					"id": 1879,
+					"id": 1841,
 					"name": "BoxProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12226,37 +12420,37 @@
 					"target": -1
 				},
 				{
-					"id": 1870,
+					"id": 1830,
 					"name": "Button",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1715
+					"target": 1665
 				},
 				{
-					"id": 1869,
+					"id": 1829,
 					"name": "ButtonProps",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1440
+					"target": 1390
 				},
 				{
-					"id": 1882,
+					"id": 1844,
 					"name": "Container",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1801
+					"target": 1761
 				},
 				{
-					"id": 1881,
+					"id": 1843,
 					"name": "ContainerProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12266,37 +12460,37 @@
 					"target": -1
 				},
 				{
-					"id": 1872,
+					"id": 1832,
 					"name": "Divider",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1743
+					"target": 1693
 				},
 				{
-					"id": 1871,
+					"id": 1831,
 					"name": "DividerProps",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1739
+					"target": 1689
 				},
 				{
-					"id": 1884,
+					"id": 1846,
 					"name": "Grid",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1814
+					"target": 1774
 				},
 				{
-					"id": 1883,
+					"id": 1845,
 					"name": "GridProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12306,57 +12500,57 @@
 					"target": -1
 				},
 				{
-					"id": 1893,
+					"id": 1855,
 					"name": "H1",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1856
+					"target": 1816
 				},
 				{
-					"id": 1894,
+					"id": 1856,
 					"name": "H2",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1858
+					"target": 1818
 				},
 				{
-					"id": 1895,
+					"id": 1857,
 					"name": "H3",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1860
+					"target": 1820
 				},
 				{
-					"id": 1896,
+					"id": 1858,
 					"name": "H4",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1862
+					"target": 1822
 				},
 				{
-					"id": 1886,
+					"id": 1848,
 					"name": "Hidden",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1833
+					"target": 1793
 				},
 				{
-					"id": 1885,
+					"id": 1847,
 					"name": "HiddenProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -12366,134 +12560,154 @@
 					"target": -1
 				},
 				{
-					"id": 1875,
+					"id": 1835,
+					"name": "IconFacebook",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1721
+				},
+				{
+					"id": 1836,
+					"name": "IconInstagram",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 1726
+				},
+				{
+					"id": 1837,
 					"name": "IconMenu",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1771
+					"target": 1731
 				},
 				{
-					"id": 1876,
+					"id": 1838,
 					"name": "IconProfile",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1777
+					"target": 1737
 				},
 				{
-					"id": 1874,
+					"id": 1834,
 					"name": "IconProps",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1767
+					"target": 1717
 				},
 				{
-					"id": 1877,
+					"id": 1839,
 					"name": "IconShoppingBasket",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1782
+					"target": 1742
 				},
 				{
-					"id": 1873,
+					"id": 1833,
 					"name": "IconSize",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1757
+					"target": 1707
 				},
 				{
-					"id": 1878,
+					"id": 1840,
 					"name": "IconX",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1788
+					"target": 1748
 				},
 				{
-					"id": 1898,
+					"id": 1860,
 					"name": "Link",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1866
+					"target": 1826
 				},
 				{
-					"id": 1889,
+					"id": 1851,
 					"name": "Logo",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1750
+					"target": 1700
 				},
 				{
-					"id": 1888,
+					"id": 1850,
 					"name": "LogoProps",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1746
+					"target": 1696
 				},
 				{
-					"id": 1887,
+					"id": 1849,
 					"name": "LogoType",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1749
+					"target": 1699
 				},
 				{
-					"id": 1892,
+					"id": 1854,
 					"name": "Masthead",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1854
+					"target": 1814
 				},
 				{
-					"id": 1890,
+					"id": 1852,
 					"name": "Spinner",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1433
+					"target": 1383
 				},
 				{
-					"id": 1891,
+					"id": 1853,
 					"name": "TextProps",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1848
+					"target": 1808
 				}
 			],
 			"groups": [
@@ -12501,36 +12715,38 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1897,
-						1880,
-						1879,
-						1870,
-						1869,
-						1882,
-						1881,
-						1872,
-						1871,
-						1884,
-						1883,
-						1893,
-						1894,
-						1895,
-						1896,
-						1886,
-						1885,
-						1875,
-						1876,
-						1874,
-						1877,
-						1873,
-						1878,
-						1898,
-						1889,
-						1888,
-						1887,
-						1892,
-						1890,
-						1891
+						1859,
+						1842,
+						1841,
+						1830,
+						1829,
+						1844,
+						1843,
+						1832,
+						1831,
+						1846,
+						1845,
+						1855,
+						1856,
+						1857,
+						1858,
+						1848,
+						1847,
+						1835,
+						1836,
+						1837,
+						1838,
+						1834,
+						1839,
+						1833,
+						1840,
+						1860,
+						1851,
+						1850,
+						1849,
+						1854,
+						1852,
+						1853
 					]
 				}
 			],
@@ -12543,7 +12759,7 @@
 			]
 		},
 		{
-			"id": 1794,
+			"id": 1754,
 			"name": "\"components/layout/Box/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -12553,7 +12769,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Box/index.tsx",
 			"children": [
 				{
-					"id": 1795,
+					"id": 1755,
 					"name": "Box",
 					"kind": 64,
 					"kindString": "Function",
@@ -12563,7 +12779,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1796,
+							"id": 1756,
 							"name": "Box",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -12572,7 +12788,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1797,
+									"id": 1757,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -12589,7 +12805,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1798,
+													"id": 1758,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -12598,7 +12814,7 @@
 													},
 													"children": [
 														{
-															"id": 1799,
+															"id": 1759,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12624,7 +12840,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1799
+																1759
 															]
 														}
 													]
@@ -12654,7 +12870,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1795
+						1755
 					]
 				}
 			],
@@ -12667,7 +12883,7 @@
 			]
 		},
 		{
-			"id": 1800,
+			"id": 1760,
 			"name": "\"components/layout/Container/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -12677,7 +12893,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Container/index.tsx",
 			"children": [
 				{
-					"id": 1801,
+					"id": 1761,
 					"name": "Container",
 					"kind": 64,
 					"kindString": "Function",
@@ -12687,7 +12903,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1802,
+							"id": 1762,
 							"name": "Container",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -12696,7 +12912,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1803,
+									"id": 1763,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -12709,7 +12925,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1804,
+													"id": 1764,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -12718,7 +12934,7 @@
 													},
 													"children": [
 														{
-															"id": 1805,
+															"id": 1765,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12744,7 +12960,7 @@
 															}
 														},
 														{
-															"id": 1806,
+															"id": 1766,
 															"name": "disableGutters",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12781,7 +12997,7 @@
 															}
 														},
 														{
-															"id": 1807,
+															"id": 1767,
 															"name": "fixed",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12818,7 +13034,7 @@
 															}
 														},
 														{
-															"id": 1808,
+															"id": 1768,
 															"name": "maxWidth",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12872,10 +13088,10 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1805,
-																1806,
-																1807,
-																1808
+																1765,
+																1766,
+																1767,
+																1768
 															]
 														}
 													]
@@ -12890,7 +13106,7 @@
 															{
 																"type": "reflection",
 																"declaration": {
-																	"id": 1809,
+																	"id": 1769,
 																	"name": "__type",
 																	"kind": 65536,
 																	"kindString": "Type literal",
@@ -12912,7 +13128,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1810,
+													"id": 1770,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -12924,7 +13140,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1811,
+													"id": 1771,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -12933,7 +13149,7 @@
 													},
 													"children": [
 														{
-															"id": 1812,
+															"id": 1772,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -12959,7 +13175,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1812
+																1772
 															]
 														}
 													]
@@ -12989,7 +13205,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1801
+						1761
 					]
 				}
 			],
@@ -13002,7 +13218,7 @@
 			]
 		},
 		{
-			"id": 1813,
+			"id": 1773,
 			"name": "\"components/layout/Grid/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -13012,7 +13228,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Grid/index.tsx",
 			"children": [
 				{
-					"id": 1814,
+					"id": 1774,
 					"name": "Grid",
 					"kind": 64,
 					"kindString": "Function",
@@ -13022,7 +13238,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1815,
+							"id": 1775,
 							"name": "Grid",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13031,7 +13247,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1816,
+									"id": 1776,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13044,7 +13260,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1817,
+													"id": 1777,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -13056,7 +13272,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1818,
+													"id": 1778,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -13065,7 +13281,7 @@
 													},
 													"children": [
 														{
-															"id": 1819,
+															"id": 1779,
 															"name": "alignContent",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13086,7 +13302,7 @@
 															}
 														},
 														{
-															"id": 1820,
+															"id": 1780,
 															"name": "alignItems",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13107,7 +13323,7 @@
 															}
 														},
 														{
-															"id": 1821,
+															"id": 1781,
 															"name": "container",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13141,7 +13357,7 @@
 															}
 														},
 														{
-															"id": 1822,
+															"id": 1782,
 															"name": "direction",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13162,7 +13378,7 @@
 															}
 														},
 														{
-															"id": 1823,
+															"id": 1783,
 															"name": "item",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13196,7 +13412,7 @@
 															}
 														},
 														{
-															"id": 1824,
+															"id": 1784,
 															"name": "justify",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13217,7 +13433,7 @@
 															}
 														},
 														{
-															"id": 1825,
+															"id": 1785,
 															"name": "spacing",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13238,7 +13454,7 @@
 															}
 														},
 														{
-															"id": 1826,
+															"id": 1786,
 															"name": "wrap",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13259,7 +13475,7 @@
 															}
 														},
 														{
-															"id": 1827,
+															"id": 1787,
 															"name": "zeroMinWidth",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13298,15 +13514,15 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1819,
-																1820,
-																1821,
-																1822,
-																1823,
-																1824,
-																1825,
-																1826,
-																1827
+																1779,
+																1780,
+																1781,
+																1782,
+																1783,
+																1784,
+																1785,
+																1786,
+																1787
 															]
 														}
 													]
@@ -13321,7 +13537,7 @@
 															{
 																"type": "reflection",
 																"declaration": {
-																	"id": 1828,
+																	"id": 1788,
 																	"name": "__type",
 																	"kind": 65536,
 																	"kindString": "Type literal",
@@ -13343,7 +13559,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1829,
+													"id": 1789,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -13355,7 +13571,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1830,
+													"id": 1790,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -13364,7 +13580,7 @@
 													},
 													"children": [
 														{
-															"id": 1831,
+															"id": 1791,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13390,7 +13606,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1831
+																1791
 															]
 														}
 													]
@@ -13420,7 +13636,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1814
+						1774
 					]
 				}
 			],
@@ -13433,7 +13649,7 @@
 			]
 		},
 		{
-			"id": 1832,
+			"id": 1792,
 			"name": "\"components/layout/Hidden/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -13443,7 +13659,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/Hidden/index.tsx",
 			"children": [
 				{
-					"id": 1833,
+					"id": 1793,
 					"name": "Hidden",
 					"kind": 64,
 					"kindString": "Function",
@@ -13453,7 +13669,7 @@
 					},
 					"signatures": [
 						{
-							"id": 1834,
+							"id": 1794,
 							"name": "Hidden",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13462,7 +13678,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1835,
+									"id": 1795,
 									"name": "props",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13479,7 +13695,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 1836,
+													"id": 1796,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -13488,7 +13704,7 @@
 													},
 													"children": [
 														{
-															"id": 1837,
+															"id": 1797,
 															"name": "children",
 															"kind": 32,
 															"kindString": "Variable",
@@ -13514,7 +13730,7 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																1837
+																1797
 															]
 														}
 													]
@@ -13544,7 +13760,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1833
+						1793
 					]
 				}
 			],
@@ -13557,7 +13773,7 @@
 			]
 		},
 		{
-			"id": 1838,
+			"id": 1798,
 			"name": "\"components/layout/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -13567,17 +13783,17 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/layout/index.ts",
 			"children": [
 				{
-					"id": 1840,
+					"id": 1800,
 					"name": "Box",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1795
+					"target": 1755
 				},
 				{
-					"id": 1839,
+					"id": 1799,
 					"name": "BoxProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -13587,17 +13803,17 @@
 					"target": -1
 				},
 				{
-					"id": 1842,
+					"id": 1802,
 					"name": "Container",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1801
+					"target": 1761
 				},
 				{
-					"id": 1841,
+					"id": 1801,
 					"name": "ContainerProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -13607,17 +13823,17 @@
 					"target": -1
 				},
 				{
-					"id": 1844,
+					"id": 1804,
 					"name": "Grid",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1814
+					"target": 1774
 				},
 				{
-					"id": 1843,
+					"id": 1803,
 					"name": "GridProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -13627,17 +13843,17 @@
 					"target": -1
 				},
 				{
-					"id": 1846,
+					"id": 1806,
 					"name": "Hidden",
 					"kind": 16777216,
 					"kindString": "Reference",
 					"flags": {
 						"isExported": true
 					},
-					"target": 1833
+					"target": 1793
 				},
 				{
-					"id": 1845,
+					"id": 1805,
 					"name": "HiddenProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -13652,14 +13868,14 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1840,
-						1839,
-						1842,
-						1841,
-						1844,
-						1843,
-						1846,
-						1845
+						1800,
+						1799,
+						1802,
+						1801,
+						1804,
+						1803,
+						1806,
+						1805
 					]
 				}
 			],
@@ -13672,7 +13888,7 @@
 			]
 		},
 		{
-			"id": 1847,
+			"id": 1807,
 			"name": "\"components/text/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -13682,7 +13898,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/components/text/index.tsx",
 			"children": [
 				{
-					"id": 1848,
+					"id": 1808,
 					"name": "TextProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -13691,7 +13907,7 @@
 					},
 					"children": [
 						{
-							"id": 1850,
+							"id": 1810,
 							"name": "align",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13725,7 +13941,7 @@
 							}
 						},
 						{
-							"id": 1849,
+							"id": 1809,
 							"name": "as",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13746,7 +13962,7 @@
 							}
 						},
 						{
-							"id": 1851,
+							"id": 1811,
 							"name": "casing",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13780,7 +13996,7 @@
 							}
 						},
 						{
-							"id": 1852,
+							"id": 1812,
 							"name": "color",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13802,7 +14018,7 @@
 							}
 						},
 						{
-							"id": 1853,
+							"id": 1813,
 							"name": "spacing",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13829,11 +14045,11 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1850,
-								1849,
-								1851,
-								1852,
-								1853
+								1810,
+								1809,
+								1811,
+								1812,
+								1813
 							]
 						}
 					],
@@ -13846,7 +14062,7 @@
 					]
 				},
 				{
-					"id": 1864,
+					"id": 1824,
 					"name": "Body",
 					"kind": 32,
 					"kindString": "Variable",
@@ -13881,7 +14097,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -13894,7 +14110,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1865,
+									"id": 1825,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13908,7 +14124,7 @@
 					"defaultValue": "styled.p<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_LIGHT};\n  line-height: 22px;\n\n  small {\n    font-size: 12px;\n    line-height: 17px;\n  }\n\n  strong,\n  small strong {\n    font-weight: ${FontWeights.MONTSERRAT_MEDIUM};\n  }\n`"
 				},
 				{
-					"id": 1856,
+					"id": 1816,
 					"name": "H1",
 					"kind": 32,
 					"kindString": "Variable",
@@ -13943,7 +14159,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -13956,7 +14172,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1857,
+									"id": 1817,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13970,7 +14186,7 @@
 					"defaultValue": "styled.h1<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_100};\n  font-family: ${FontFamilies.VOLLKORN};\n  font-size: 26px;\n  font-weight: ${FontWeights.VOLLKORN_BOLD},\n  line-height: 36px;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 34px;\n    line-height: 48px;\n  }\n`"
 				},
 				{
-					"id": 1858,
+					"id": 1818,
 					"name": "H2",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14005,7 +14221,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -14018,7 +14234,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1859,
+									"id": 1819,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -14032,7 +14248,7 @@
 					"defaultValue": "styled.h2<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_100};\n  font-family: ${FontFamilies.VOLLKORN};\n  font-size: 22px;\n  font-weight: ${FontWeights.VOLLKORN_SEMI_BOLD};\n  line-height: 31px;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 28px;\n    line-height: 39px;\n  }\n`"
 				},
 				{
-					"id": 1860,
+					"id": 1820,
 					"name": "H3",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14067,7 +14283,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -14080,7 +14296,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1861,
+									"id": 1821,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -14094,7 +14310,7 @@
 					"defaultValue": "styled.h3<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_SEMI_BOLD};\n  letter-spacing: 0.06em;\n  line-height: 22px;\n  text-transform: uppercase;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-size: 18px;\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n    line-height: 25px;\n  }\n`"
 				},
 				{
-					"id": 1862,
+					"id": 1822,
 					"name": "H4",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14129,7 +14345,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -14142,7 +14358,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1863,
+									"id": 1823,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -14156,7 +14372,7 @@
 					"defaultValue": "styled.h4<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.GREY_090};\n  font-family: ${FontFamilies.MONTSERRAT};\n  font-size: 16px;\n  font-weight: ${FontWeights.MONTSERRAT_MEDIUM};\n  letter-spacing: 0.06em;\n  line-height: 22px;\n  text-transform: uppercase;\n\n  ${MEDIA_QUERY.desktopMin} {\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n  }\n\n  small {\n    font-weight: ${FontWeights.MONTSERRAT_BOLD};\n    font-size: 12px;\n    line-height: 17px;\n  }\n`"
 				},
 				{
-					"id": 1866,
+					"id": 1826,
 					"name": "Link",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14191,7 +14407,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -14204,7 +14420,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1867,
+									"id": 1827,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -14218,7 +14434,7 @@
 					"defaultValue": "styled.a<TextProps>`\n  margin: 0;\n  padding: 0;\n  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}\n  ${({ align }) => align ? css`text-align: ${align};`: ''}\n  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}\n  color: ${({ color }) => color || Colors.SECONDARY};\n  font-family: inherit;\n  font-size: inherit;\n  font-weight: inherit;\n  line-height: inherit;\n  text-decoration: underline;\n  transition: 0.2s ease-in;\n\n  :active,\n  :focus,\n  :hover {\n    opacity: 0.6;\n  }\n\n  :visited {\n    opacity: 0.4;\n  }\n`"
 				},
 				{
-					"id": 1854,
+					"id": 1814,
 					"name": "Masthead",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14253,7 +14469,7 @@
 									},
 									{
 										"type": "reference",
-										"id": 1848,
+										"id": 1808,
 										"name": "TextProps"
 									},
 									{
@@ -14266,7 +14482,7 @@
 							{
 								"type": "reflection",
 								"declaration": {
-									"id": 1855,
+									"id": 1815,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -14285,20 +14501,20 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						1848
+						1808
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1864,
-						1856,
-						1858,
-						1860,
-						1862,
-						1866,
-						1854
+						1824,
+						1816,
+						1818,
+						1820,
+						1822,
+						1826,
+						1814
 					]
 				}
 			],
@@ -16329,7 +16545,7 @@
 			]
 		},
 		{
-			"id": 1417,
+			"id": 1367,
 			"name": "\"styles/index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -16340,7 +16556,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/styles/index.ts",
 			"children": [
 				{
-					"id": 1419,
+					"id": 1369,
 					"name": "AnimationDelay",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16350,7 +16566,7 @@
 					"target": 5
 				},
 				{
-					"id": 1418,
+					"id": 1368,
 					"name": "AnimationDurations",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16360,7 +16576,7 @@
 					"target": 2
 				},
 				{
-					"id": 1429,
+					"id": 1379,
 					"name": "BASE_SPACING",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16370,7 +16586,7 @@
 					"target": 113
 				},
 				{
-					"id": 1420,
+					"id": 1370,
 					"name": "BorderRadii",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16380,7 +16596,7 @@
 					"target": 8
 				},
 				{
-					"id": 1421,
+					"id": 1371,
 					"name": "BorderWidths",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16390,7 +16606,7 @@
 					"target": 15
 				},
 				{
-					"id": 1422,
+					"id": 1372,
 					"name": "Breakpoints",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16400,7 +16616,7 @@
 					"target": 22
 				},
 				{
-					"id": 1424,
+					"id": 1374,
 					"name": "Colors",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16410,7 +16626,7 @@
 					"target": 54
 				},
 				{
-					"id": 1427,
+					"id": 1377,
 					"name": "FontFamilies",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16420,7 +16636,7 @@
 					"target": 84
 				},
 				{
-					"id": 1428,
+					"id": 1378,
 					"name": "FontWeights",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16430,7 +16646,7 @@
 					"target": 88
 				},
 				{
-					"id": 1426,
+					"id": 1376,
 					"name": "GOOGLE_FONT_LINK",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16440,7 +16656,7 @@
 					"target": 96
 				},
 				{
-					"id": 1425,
+					"id": 1375,
 					"name": "GRADIENTS",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16450,7 +16666,7 @@
 					"target": 80
 				},
 				{
-					"id": 1423,
+					"id": 1373,
 					"name": "MEDIA_QUERY",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16460,7 +16676,7 @@
 					"target": 38
 				},
 				{
-					"id": 1430,
+					"id": 1380,
 					"name": "SpacingProps",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16470,7 +16686,7 @@
 					"target": 98
 				},
 				{
-					"id": 1431,
+					"id": 1381,
 					"name": "spacing2css",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -16485,20 +16701,20 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						1419,
-						1418,
-						1429,
-						1420,
-						1421,
-						1422,
-						1424,
-						1427,
-						1428,
-						1426,
-						1425,
-						1423,
-						1430,
-						1431
+						1369,
+						1368,
+						1379,
+						1370,
+						1371,
+						1372,
+						1374,
+						1377,
+						1378,
+						1376,
+						1375,
+						1373,
+						1380,
+						1381
 					]
 				}
 			],
@@ -17114,24 +17330,24 @@
 			"title": "Modules",
 			"kind": 1,
 			"children": [
-				1439,
-				1738,
-				1745,
-				1432,
-				1756,
-				1868,
-				1794,
-				1800,
-				1813,
-				1832,
-				1838,
-				1847,
+				1389,
+				1688,
+				1695,
+				1382,
+				1706,
+				1828,
+				1754,
+				1760,
+				1773,
+				1792,
+				1798,
+				1807,
 				1,
 				7,
 				21,
 				53,
 				83,
-				1417,
+				1367,
 				97
 			]
 		}

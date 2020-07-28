@@ -1,5 +1,5 @@
 import React from 'react';
-import { Body, Box, Grid, IconMenu, IconProfile, IconShoppingBasket, IconX, IconSize } from 'components';
+import { Body, Box, Grid, IconFacebook, IconInstagram, IconMenu, IconProfile, IconShoppingBasket, IconX, IconSize } from 'components';
 import { CopyButton, ComponentsPreview } from 'explorer-components';
 import styled from 'styled-components';
 import { BorderWidths, BorderRadii, Colors } from 'styles';
@@ -44,6 +44,20 @@ export const Icons = () => (
     ]}
   >
     <Grid container={true} spacing={3}>
+      <Grid item={true} xs={4}>
+        <IconBox
+          name="Facebook"
+          icon={<IconFacebook size={IconSize.XX_LARGE} />}
+        />
+      </Grid>
+
+      <Grid item={true} xs={4}>
+        <IconBox
+          name="Instagram"
+          icon={<IconInstagram size={IconSize.XX_LARGE} />}
+        />
+      </Grid>
+
       <Grid item={true} xs={4}>
         <IconBox
           name="Menu"
