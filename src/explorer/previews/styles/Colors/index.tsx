@@ -187,6 +187,14 @@ export const Colors = () => (
               </Grid>
 
               <Grid item={true} xs={2}>
+                <ColorDefinition name="Primary_light_050" friendlyName="Primary_light 50%" color={StyleColors.PRIMARY_LIGHT_050} />
+              </Grid>
+
+              <Grid item={true} xs={2}>
+                <ColorDefinition name="Primary_light_025" friendlyName="Primary_light 25%" color={StyleColors.PRIMARY_LIGHT_025} />
+              </Grid>
+
+              <Grid item={true} xs={2}>
                 <ColorDefinition name="Grey_030_050" friendlyName="Grey_030 50%" color={StyleColors.GREY_030_050} />
               </Grid>
 
