@@ -10484,7 +10484,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 100,
+								"id": 102,
 								"name": "SpacingProps"
 							}
 						}
@@ -10869,7 +10869,17 @@
 															{
 																"type": "reference",
 																"id": 81,
-																"name": "WHITE_035"
+																"name": "WHITE_075"
+															},
+															{
+																"type": "reference",
+																"id": 82,
+																"name": "WHITE_050"
+															},
+															{
+																"type": "reference",
+																"id": 83,
+																"name": "WHITE_025"
 															}
 														]
 													}
@@ -12697,7 +12707,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 100,
+								"id": 102,
 								"name": "SpacingProps"
 							}
 						}
@@ -14776,8 +14786,44 @@
 							"defaultValue": "\"#ffffff\""
 						},
 						{
+							"id": 83,
+							"name": "WHITE_025",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "src/styles/colors.ts",
+									"line": 35,
+									"character": 11
+								}
+							],
+							"defaultValue": "\"rgba(255, 255, 255, 0.25)\""
+						},
+						{
+							"id": 82,
+							"name": "WHITE_050",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {
+								"isExported": true,
+								"isExternal": true
+							},
+							"sources": [
+								{
+									"fileName": "src/styles/colors.ts",
+									"line": 34,
+									"character": 11
+								}
+							],
+							"defaultValue": "\"rgba(255, 255, 255, 0.5)\""
+						},
+						{
 							"id": 81,
-							"name": "WHITE_035",
+							"name": "WHITE_075",
 							"kind": 16,
 							"kindString": "Enumeration member",
 							"flags": {
@@ -14791,7 +14837,7 @@
 									"character": 11
 								}
 							],
-							"defaultValue": "\"rgba(255, 255, 255, 0.35)\""
+							"defaultValue": "\"rgba(255, 255, 255, 0.75)\""
 						}
 					],
 					"groups": [
@@ -14825,6 +14871,8 @@
 								55,
 								73,
 								76,
+								83,
+								82,
 								81
 							]
 						}
@@ -14838,7 +14886,7 @@
 					]
 				},
 				{
-					"id": 82,
+					"id": 84,
 					"name": "GRADIENTS",
 					"kind": 2097152,
 					"kindString": "Object literal",
@@ -14849,7 +14897,7 @@
 					},
 					"children": [
 						{
-							"id": 83,
+							"id": 85,
 							"name": "button",
 							"kind": 32,
 							"kindString": "Variable",
@@ -14860,7 +14908,7 @@
 							"sources": [
 								{
 									"fileName": "src/styles/colors.ts",
-									"line": 37,
+									"line": 39,
 									"character": 8
 								}
 							],
@@ -14871,7 +14919,7 @@
 							"defaultValue": "`linear-gradient(99.35deg, ${Colors.PRIMARY_LIGHT} -60.52%, ${Colors.PRIMARY} 10.84%, ${Colors.PRIMARY_DARK} 85.38%)`"
 						},
 						{
-							"id": 84,
+							"id": 86,
 							"name": "stripe",
 							"kind": 32,
 							"kindString": "Variable",
@@ -14882,7 +14930,7 @@
 							"sources": [
 								{
 									"fileName": "src/styles/colors.ts",
-									"line": 38,
+									"line": 40,
 									"character": 8
 								}
 							],
@@ -14898,15 +14946,15 @@
 							"title": "Variables",
 							"kind": 32,
 							"children": [
-								83,
-								84
+								85,
+								86
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "src/styles/colors.ts",
-							"line": 36,
+							"line": 38,
 							"character": 22
 						}
 					],
@@ -14928,7 +14976,7 @@
 					"title": "Object literals",
 					"kind": 2097152,
 					"children": [
-						82
+						84
 					]
 				}
 			],
@@ -14941,7 +14989,7 @@
 			]
 		},
 		{
-			"id": 85,
+			"id": 87,
 			"name": "\"styles/fonts\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -14952,7 +15000,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/styles/fonts.ts",
 			"children": [
 				{
-					"id": 86,
+					"id": 88,
 					"name": "FontFamilies",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -14962,7 +15010,7 @@
 					},
 					"children": [
 						{
-							"id": 89,
+							"id": 91,
 							"name": "MONTSERRAT",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -14980,7 +15028,7 @@
 							"defaultValue": "\"\"Montserrat\", sans-serif\""
 						},
 						{
-							"id": 88,
+							"id": 90,
 							"name": "VOLLKORN",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -14998,7 +15046,7 @@
 							"defaultValue": "\"\"Vollkorn\", serif\""
 						},
 						{
-							"id": 87,
+							"id": 89,
 							"name": "VOLLKORN_SC",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15021,9 +15069,9 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								89,
-								88,
-								87
+								91,
+								90,
+								89
 							]
 						}
 					],
@@ -15036,7 +15084,7 @@
 					]
 				},
 				{
-					"id": 90,
+					"id": 92,
 					"name": "FontWeights",
 					"kind": 4,
 					"kindString": "Enumeration",
@@ -15046,7 +15094,7 @@
 					},
 					"children": [
 						{
-							"id": 97,
+							"id": 99,
 							"name": "MONTSERRAT_BOLD",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15064,7 +15112,7 @@
 							"defaultValue": "700"
 						},
 						{
-							"id": 94,
+							"id": 96,
 							"name": "MONTSERRAT_LIGHT",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15082,7 +15130,7 @@
 							"defaultValue": "300"
 						},
 						{
-							"id": 95,
+							"id": 97,
 							"name": "MONTSERRAT_MEDIUM",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15100,7 +15148,7 @@
 							"defaultValue": "500"
 						},
 						{
-							"id": 96,
+							"id": 98,
 							"name": "MONTSERRAT_SEMI_BOLD",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15118,7 +15166,7 @@
 							"defaultValue": "600"
 						},
 						{
-							"id": 93,
+							"id": 95,
 							"name": "VOLLKORN_BOLD",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15136,7 +15184,7 @@
 							"defaultValue": "700"
 						},
 						{
-							"id": 91,
+							"id": 93,
 							"name": "VOLLKORN_SC_BOLD",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15154,7 +15202,7 @@
 							"defaultValue": "700"
 						},
 						{
-							"id": 92,
+							"id": 94,
 							"name": "VOLLKORN_SEMI_BOLD",
 							"kind": 16,
 							"kindString": "Enumeration member",
@@ -15177,13 +15225,13 @@
 							"title": "Enumeration members",
 							"kind": 16,
 							"children": [
-								97,
-								94,
-								95,
+								99,
 								96,
+								97,
+								98,
+								95,
 								93,
-								91,
-								92
+								94
 							]
 						}
 					],
@@ -15196,7 +15244,7 @@
 					]
 				},
 				{
-					"id": 98,
+					"id": 100,
 					"name": "GOOGLE_FONT_LINK",
 					"kind": 32,
 					"kindString": "Variable",
@@ -15224,15 +15272,15 @@
 					"title": "Enumerations",
 					"kind": 4,
 					"children": [
-						86,
-						90
+						88,
+						92
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						98
+						100
 					]
 				}
 			],
@@ -15283,7 +15331,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 115
+					"target": 117
 				},
 				{
 					"id": 1422,
@@ -15333,7 +15381,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 86
+					"target": 88
 				},
 				{
 					"id": 1430,
@@ -15343,7 +15391,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 90
+					"target": 92
 				},
 				{
 					"id": 1428,
@@ -15353,7 +15401,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 98
+					"target": 100
 				},
 				{
 					"id": 1427,
@@ -15363,7 +15411,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 82
+					"target": 84
 				},
 				{
 					"id": 1425,
@@ -15383,7 +15431,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 100
+					"target": 102
 				},
 				{
 					"id": 1433,
@@ -15393,7 +15441,7 @@
 					"flags": {
 						"isExported": true
 					},
-					"target": 120
+					"target": 122
 				}
 			],
 			"groups": [
@@ -15427,7 +15475,7 @@
 			]
 		},
 		{
-			"id": 99,
+			"id": 101,
 			"name": "\"styles/spacing\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -15438,7 +15486,7 @@
 			"originalName": "/Users/merry/projects/merrykit/src/styles/spacing.ts",
 			"children": [
 				{
-					"id": 100,
+					"id": 102,
 					"name": "SpacingProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -15448,7 +15496,7 @@
 					},
 					"children": [
 						{
-							"id": 107,
+							"id": 109,
 							"name": "margin",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15469,14 +15517,14 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 116,
+										"id": 118,
 										"name": "Spacing"
 									},
 									{
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"id": 116,
+											"id": 118,
 											"name": "Spacing"
 										}
 									}
@@ -15484,7 +15532,7 @@
 							}
 						},
 						{
-							"id": 102,
+							"id": 104,
 							"name": "marginBottom",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15502,12 +15550,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 103,
+							"id": 105,
 							"name": "marginLeft",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15525,12 +15573,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 104,
+							"id": 106,
 							"name": "marginRight",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15548,12 +15596,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 101,
+							"id": 103,
 							"name": "marginTop",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15571,12 +15619,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 105,
+							"id": 107,
 							"name": "marginX",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15594,12 +15642,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 106,
+							"id": 108,
 							"name": "marginY",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15617,12 +15665,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 114,
+							"id": 116,
 							"name": "padding",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15643,14 +15691,14 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 116,
+										"id": 118,
 										"name": "Spacing"
 									},
 									{
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"id": 116,
+											"id": 118,
 											"name": "Spacing"
 										}
 									}
@@ -15658,7 +15706,7 @@
 							}
 						},
 						{
-							"id": 109,
+							"id": 111,
 							"name": "paddingBottom",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15676,12 +15724,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 110,
+							"id": 112,
 							"name": "paddingLeft",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15699,12 +15747,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 111,
+							"id": 113,
 							"name": "paddingRight",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15722,12 +15770,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 108,
+							"id": 110,
 							"name": "paddingTop",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15745,12 +15793,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 112,
+							"id": 114,
 							"name": "paddingX",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15768,12 +15816,12 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						},
 						{
-							"id": 113,
+							"id": 115,
 							"name": "paddingY",
 							"kind": 1024,
 							"kindString": "Property",
@@ -15791,7 +15839,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 116,
+								"id": 118,
 								"name": "Spacing"
 							}
 						}
@@ -15801,20 +15849,20 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								107,
-								102,
-								103,
+								109,
 								104,
-								101,
 								105,
 								106,
-								114,
-								109,
-								110,
-								111,
+								103,
+								107,
 								108,
+								116,
+								111,
 								112,
-								113
+								113,
+								110,
+								114,
+								115
 							]
 						}
 					],
@@ -15827,7 +15875,7 @@
 					]
 				},
 				{
-					"id": 116,
+					"id": 118,
 					"name": "Spacing",
 					"kind": 4194304,
 					"kindString": "Type alias",
@@ -15856,7 +15904,7 @@
 					}
 				},
 				{
-					"id": 115,
+					"id": 117,
 					"name": "BASE_SPACING",
 					"kind": 32,
 					"kindString": "Variable",
@@ -15879,7 +15927,7 @@
 					"defaultValue": "8"
 				},
 				{
-					"id": 117,
+					"id": 119,
 					"name": "getSpacingCSSString",
 					"kind": 64,
 					"kindString": "Function",
@@ -15889,14 +15937,14 @@
 					},
 					"signatures": [
 						{
-							"id": 118,
+							"id": 120,
 							"name": "getSpacingCSSString",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 119,
+									"id": 121,
 									"name": "spacing",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -15906,14 +15954,14 @@
 										"types": [
 											{
 												"type": "reference",
-												"id": 116,
+												"id": 118,
 												"name": "Spacing"
 											},
 											{
 												"type": "array",
 												"elementType": {
 													"type": "reference",
-													"id": 116,
+													"id": 118,
 													"name": "Spacing"
 												}
 											}
@@ -15936,7 +15984,7 @@
 					]
 				},
 				{
-					"id": 120,
+					"id": 122,
 					"name": "spacing2css",
 					"kind": 64,
 					"kindString": "Function",
@@ -15947,7 +15995,7 @@
 					},
 					"signatures": [
 						{
-							"id": 121,
+							"id": 123,
 							"name": "spacing2css",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -15956,7 +16004,7 @@
 							},
 							"parameters": [
 								{
-									"id": 122,
+									"id": 124,
 									"name": "spacingProps",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -15965,7 +16013,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 100,
+										"id": 102,
 										"name": "SpacingProps"
 									}
 								}
@@ -15990,29 +16038,29 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						100
+						102
 					]
 				},
 				{
 					"title": "Type aliases",
 					"kind": 4194304,
 					"children": [
-						116
+						118
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						115
+						117
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						117,
-						120
+						119,
+						122
 					]
 				}
 			],
@@ -16045,9 +16093,9 @@
 				7,
 				21,
 				53,
-				85,
+				87,
 				1419,
-				99
+				101
 			]
 		}
 	]

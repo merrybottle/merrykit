@@ -199,7 +199,15 @@ export const Colors = () => (
               </Grid>
 
               <Grid item={true} xs={2}>
-                <ColorDefinition name="White_035" friendlyName="White 35%" color={StyleColors.WHITE_035} showBorder={true} />
+                <ColorDefinition name="White_075" friendlyName="White 75%" color={StyleColors.WHITE_075} showBorder={true} />
+              </Grid>
+
+              <Grid item={true} xs={2}>
+                <ColorDefinition name="White_050" friendlyName="White 50%" color={StyleColors.WHITE_050} showBorder={true} />
+              </Grid>
+
+              <Grid item={true} xs={2}>
+                <ColorDefinition name="White_025" friendlyName="White 25%" color={StyleColors.WHITE_025} showBorder={true} />
               </Grid>
             </Grid>
           </Grid>

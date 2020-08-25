@@ -30,7 +30,9 @@ export enum Colors {
   PRIMARY_LIGHT_050 = 'rgba(249, 192, 189, 0.5)',
   PRIMARY_LIGHT_025 = 'rgba(249, 192, 189, 0.25)',
   GREY_030_050 = 'rgba(199, 196, 206, 0.5)',
-  WHITE_035 = 'rgba(255, 255, 255, 0.35)'
+  WHITE_075 = 'rgba(255, 255, 255, 0.75)',
+  WHITE_050 = 'rgba(255, 255, 255, 0.5)',
+  WHITE_025 = 'rgba(255, 255, 255, 0.25)'
 }
 
 export const GRADIENTS = {
