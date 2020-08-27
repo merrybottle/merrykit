@@ -1,5 +1,9 @@
 import React from 'react';
-import MUBox, { BoxProps } from '@material-ui/core/Box';
+import MUBox, { BoxProps as MUIBoxProps } from '@material-ui/core/Box';
+import { SpacingProps } from 'styles';
 
-export { BoxProps };
+export interface BoxProps extends MUIBoxProps {
+  spacing?: SpacingProps;
+}
+
 export const Box: React.FC<BoxProps> = props => <MUBox {...props} />

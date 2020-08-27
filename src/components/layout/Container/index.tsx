@@ -1,5 +1,9 @@
 import React from 'react';
-import MUContainer, { ContainerProps } from '@material-ui/core/Container';
+import MUContainer, { ContainerProps as MUIContainerProps } from '@material-ui/core/Container';
+import { SpacingProps } from 'styles';
 
-export { ContainerProps };
+export interface ContainerProps extends MUIContainerProps {
+  spacing?: SpacingProps;
+}
+
 export const Container: React.FC<ContainerProps> = props => <MUContainer {...props} />
