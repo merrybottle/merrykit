@@ -1,7 +1,7 @@
-import React from 'react';
 import { Body } from 'components';
-import { BorderWidths, Colors, spacing2css, SpacingProps } from 'styles';
+import React from 'react';
 import styled from 'styled-components';
+import { BorderWidths, Colors, spacing2css, SpacingProps } from 'styles';
 
 const ButtonText = styled(Body).attrs({
   as: 'span',
@@ -12,7 +12,7 @@ const ButtonText = styled(Body).attrs({
 `;
 
 const Button = styled.button<{ spacing?: SpacingProps }>`
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
   ${spacing2css({ paddingX: 1, paddingY: 0.25 })}
   background-color: ${Colors.GREY_010};
   border: ${BorderWidths.SMALL} solid ${Colors.GREY_030};
@@ -31,14 +31,14 @@ const Button = styled.button<{ spacing?: SpacingProps }>`
 `;
 
 const copyToClipboard = (text: string): void => {
-  navigator.clipboard.writeText(text).then(function() {
-    console.log('Async: Copying to clipboard was successful!');
-  }, function(err) {
-    console.error('Async: Could not copy text: ', err);
-  });
+  navigator.clipboard.writeText(text);
 };
 
-export const CopyButton: React.FC<{ spacing?: SpacingProps; text: string }> = ({ children, spacing, text }) => (
+export const CopyButton: React.FC<{ spacing?: SpacingProps; text: string }> = ({
+  children,
+  spacing,
+  text,
+}) => (
   <Button onClick={() => copyToClipboard(text)} spacing={spacing}>
     <ButtonText>{children || text}</ButtonText>
   </Button>

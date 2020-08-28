@@ -1,6 +1,16 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { AnimationDelay, AnimationDurations, Colors, FontFamilies, FontWeights, GRADIENTS, MEDIA_QUERY, spacing2css } from 'styles';
+import {
+  AnimationDelay,
+  AnimationDurations,
+  Colors,
+  FontFamilies,
+  FontWeights,
+  GRADIENTS,
+  MEDIA_QUERY,
+  spacing2css,
+} from 'styles';
+
 import { Spinner } from '../Spinner';
 
 const MOBILE_HEIGHT = 44;
@@ -24,15 +34,15 @@ export const Button: React.FC<ButtonProps> = ({
   ...props
 }) => (
   <StyledButton kind={kind} loading={loading} {...props}>
-    {loading && kind === 'default' &&
+    {loading && kind === 'default' && (
       <StyledSpinnerContainer>
         <Spinner />
       </StyledSpinnerContainer>
-    }
+    )}
 
-    {((!loading && kind === 'default') || kind !== 'default') &&
+    {((!loading && kind === 'default') || kind !== 'default') && (
       <StyledButtonSpan>{children}</StyledButtonSpan>
-    }
+    )}
   </StyledButton>
 );
 
@@ -68,7 +78,7 @@ const StyledButton = styled.button<Omit<ButtonProps, 'children'>>`
 
   :hover {
     border: 0;
-    cursor: ${({ loading }) => loading ? 'not-allowed' : 'pointer'};
+    cursor: ${({ loading }) => (loading ? 'not-allowed' : 'pointer')};
   }
 
   :disabled {
@@ -113,7 +123,9 @@ const StyledButton = styled.button<Omit<ButtonProps, 'children'>>`
             ${secondaryDisabledStyles}
           }
 
-          ${loading ? secondaryDisabledStyles : `
+          ${loading
+            ? secondaryDisabledStyles
+            : `
             :not(:disabled) {
               :focus::before,
               :hover::before {
@@ -181,7 +193,9 @@ const StyledButton = styled.button<Omit<ButtonProps, 'children'>>`
             right: 0;
           }
 
-          ${loading ? '' : `
+          ${loading
+            ? ''
+            : `
             :not(:disabled):focus,
             :not(:disabled):hover {
               box-shadow: 0 0 0 8px ${Colors.PRIMARY_LIGHT_075};

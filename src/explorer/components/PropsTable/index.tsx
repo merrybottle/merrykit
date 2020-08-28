@@ -1,8 +1,8 @@
-import React from 'react';
 import { Body, H4 } from 'components';
-import { BorderRadii, BorderWidths, Colors, spacing2css } from 'styles';
-import styled from 'styled-components';
 import { PreviewPropsType } from 'explorer-components';
+import React from 'react';
+import styled from 'styled-components';
+import { BorderRadii, BorderWidths, Colors, spacing2css } from 'styles';
 
 const Td = styled.td`
   ${spacing2css({ paddingX: 2, paddingY: 0.75 })}
@@ -19,7 +19,8 @@ const Table = styled.table`
   }
 
   tbody {
-    th, td:not(${Td}) {
+    th,
+    td:not(${Td}) {
       vertical-align: top;
     }
   }
@@ -34,20 +35,36 @@ export const PropsTable: React.FC<{ propValues: PreviewPropsType[] }> = ({ propV
   <Table>
     <thead>
       <tr>
-        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>Name</H4>
-        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>Type</H4>
-        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>Optional</H4>
-        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>Default Value</H4>
+        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>
+          Name
+        </H4>
+        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>
+          Type
+        </H4>
+        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>
+          Optional
+        </H4>
+        <H4 as="th" spacing={{ paddingX: 2, paddingY: 1 }}>
+          Default Value
+        </H4>
       </tr>
     </thead>
 
     <tbody>
       {propValues.map(({ name, type, optional, defaultValue }) => (
         <tr key={name}>
-          <Body as="th" spacing={{ paddingX: 2, paddingY: 0.75 }}>{name}</Body>
-          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>{type}</Body>
-          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>{optional ? 'Yes' : ''}</Body>
-          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>{defaultValue || ''}</Body>
+          <Body as="th" spacing={{ paddingX: 2, paddingY: 0.75 }}>
+            {name}
+          </Body>
+          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>
+            {type}
+          </Body>
+          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>
+            {optional ? 'Yes' : ''}
+          </Body>
+          <Body as="td" spacing={{ paddingX: 2, paddingY: 0.75 }}>
+            {defaultValue || ''}
+          </Body>
         </tr>
       ))}
     </tbody>

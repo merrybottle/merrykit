@@ -1,9 +1,9 @@
+import { Box, Grid } from 'components';
+import { Menu, PreviewPanel } from 'explorer-components';
 import React, { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { Colors, GOOGLE_FONT_LINK } from 'styles';
-import { Box, Grid } from 'components';
 import { createGlobalStyle } from 'styled-components';
-import { Menu, PreviewPanel } from 'explorer-components';
+import { Colors, GOOGLE_FONT_LINK } from 'styles';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -36,9 +36,7 @@ export const Explorer = () => {
 
         <Grid item={true} xs={12} md={9}>
           <Box height="100vh" boxSizing="border-box" alignItems="stretch" display="flex">
-            <PreviewPanel>
-              {preview}
-            </PreviewPanel>
+            <PreviewPanel>{preview}</PreviewPanel>
           </Box>
         </Grid>
       </Grid>

@@ -7,7 +7,19 @@
     "doc": "typedoc",
     "dev": "parcel ./src/index.html",
     "build:doc": "yarn run doc",
-    "build": "yarn run doc && tsc && parcel build ./src/index.ts"
+    "build": "yarn run doc && tsc && parcel build ./src/index.ts",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "ts": "tsc --noEmit"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@material-ui/core": "^4.10.1",
@@ -25,8 +37,16 @@
     "@types/react": "^16.9.25",
     "@types/react-dom": "^16.9.5",
     "@types/styled-components": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
     "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
     "parcel": "^2.0.0-nightly.275",
+    "prettier": "^2.1.1",
     "tslint": "^6.1.2",
     "typedoc": "^0.17.7",
     "typescript": "^3.8.3"

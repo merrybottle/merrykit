@@ -1,7 +1,7 @@
+import { CopyButton } from 'explorer-components';
 import React from 'react';
 import styled from 'styled-components';
 import { BorderRadii, BorderWidths, Colors, spacing2css } from 'styles';
-import { CopyButton } from 'explorer-components';
 
 export const CodeWrapper = styled.div`
   ${spacing2css({ paddingBottom: 2, paddingTop: 3, paddingX: 3 })}
@@ -23,6 +23,8 @@ export const Code: React.FC = ({ children }) => (
       <Pre>{children}</Pre>
     </code>
 
-    <CopyButton text={children?.toString() || ''} spacing={{ marginTop: 2 }}>Copy</CopyButton>
+    <CopyButton text={children?.toString() || ''} spacing={{ marginTop: 2 }}>
+      Copy
+    </CopyButton>
   </CodeWrapper>
 );

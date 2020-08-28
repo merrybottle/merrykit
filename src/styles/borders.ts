@@ -4,7 +4,7 @@ export enum BorderRadii {
   SMALL = '2px',
   MEDIUM = '4px',
   LARGE = '8px',
-  X_LARGE = '16px'
+  X_LARGE = '16px',
 }
 
 export enum BorderWidths {
@@ -12,5 +12,5 @@ export enum BorderWidths {
   SMALL = '1px',
   MEDIUM = '2px',
   LARGE = '3px',
-  X_LARGE = '4px'
+  X_LARGE = '4px',
 }

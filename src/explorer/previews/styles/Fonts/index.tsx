@@ -1,7 +1,7 @@
-import React from 'react';
-import { GOOGLE_FONT_LINK, FontFamilies, FontWeights } from 'styles';
-import { Code, EnumTable, StylesPreview } from 'explorer-components';
 import { H3 } from 'components';
+import { Code, EnumTable, StylesPreview } from 'explorer-components';
+import React from 'react';
+import { FontFamilies, FontWeights, GOOGLE_FONT_LINK } from 'styles';
 
 export const Fonts = () => (
   <StylesPreview title="Fonts">

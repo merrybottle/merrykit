@@ -1,6 +1,6 @@
+import { EnumTable, StylesPreview } from 'explorer-components';
 import React from 'react';
 import { Breakpoints as StyleBreakpoints, MEDIA_QUERY } from 'styles';
-import { EnumTable, StylesPreview } from 'explorer-components';
 
 export const Breakpoints = () => (
   <StylesPreview title="Breakpoints">

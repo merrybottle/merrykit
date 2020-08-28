@@ -1,7 +1,7 @@
+import { Body, H3 } from 'components';
+import { Code, EnumTable, StylesPreview } from 'explorer-components';
 import React from 'react';
 import { BASE_SPACING } from 'styles';
-import { Code, EnumTable, StylesPreview } from 'explorer-components';
-import { Body, H3 } from 'components';
 
 export const Spacing = () => (
   <StylesPreview title="Spacing">

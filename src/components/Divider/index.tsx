@@ -8,7 +8,7 @@ export interface DividerProps {
 }
 
 export const Divider = styled.hr<DividerProps>`
-  ${({ color, spacing, size}) => css`
+  ${({ color, spacing, size }) => css`
     ${spacing ? spacing2css(spacing) : ''}
     border: 0;
     border-top: ${size || BorderWidths.SMALL} solid ${color || Colors.GREY_030};

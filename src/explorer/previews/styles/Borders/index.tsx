@@ -1,6 +1,6 @@
+import { EnumTable, StylesPreview } from 'explorer-components';
 import React from 'react';
 import { BorderRadii, BorderWidths } from 'styles';
-import { EnumTable, StylesPreview } from 'explorer-components';
 
 export const Borders = () => (
   <StylesPreview title="Borders">

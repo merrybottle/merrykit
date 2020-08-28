@@ -13,9 +13,19 @@ export interface TextProps {
 export const Masthead = styled.h1<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.BLACK};
   font-family: ${FontFamilies.VOLLKORN_SC};
   font-size: 32px;
@@ -31,9 +41,19 @@ export const Masthead = styled.h1<TextProps>`
 export const H1 = styled.h1<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.GREY_100};
   font-family: ${FontFamilies.VOLLKORN};
   font-size: 26px;
@@ -49,9 +69,19 @@ export const H1 = styled.h1<TextProps>`
 export const H2 = styled.h2<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.GREY_100};
   font-family: ${FontFamilies.VOLLKORN};
   font-size: 22px;
@@ -67,9 +97,19 @@ export const H2 = styled.h2<TextProps>`
 export const H3 = styled.h3<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.GREY_090};
   font-family: ${FontFamilies.MONTSERRAT};
   font-size: 16px;
@@ -88,9 +128,19 @@ export const H3 = styled.h3<TextProps>`
 export const H4 = styled.h4<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.GREY_090};
   font-family: ${FontFamilies.MONTSERRAT};
   font-size: 16px;
@@ -113,9 +163,19 @@ export const H4 = styled.h4<TextProps>`
 export const Body = styled.p<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.GREY_090};
   font-family: ${FontFamilies.MONTSERRAT};
   font-size: 16px;
@@ -136,9 +196,19 @@ export const Body = styled.p<TextProps>`
 export const Link = styled.a<TextProps>`
   margin: 0;
   padding: 0;
-  ${({ spacing }) => spacing ? spacing2css(spacing) : ''}
-  ${({ align }) => align ? css`text-align: ${align};`: ''}
-  ${({ casing }) => casing ? css`text-transform: ${casing};`: ''}
+  ${({ spacing }) => (spacing ? spacing2css(spacing) : '')}
+  ${({ align }) =>
+    align
+      ? css`
+          text-align: ${align};
+        `
+      : ''}
+  ${({ casing }) =>
+    casing
+      ? css`
+          text-transform: ${casing};
+        `
+      : ''}
   color: ${({ color }) => color || Colors.SECONDARY};
   font-family: inherit;
   font-size: inherit;

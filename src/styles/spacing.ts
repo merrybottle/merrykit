@@ -22,7 +22,8 @@ export interface SpacingProps {
 }
 
 const getSpacingCSSString = (spacing: Spacing | Spacing[]) => {
-  const format = (value: Spacing) => typeof value === 'number' ? `${value * BASE_SPACING}px` : value;
+  const format = (value: Spacing) =>
+    typeof value === 'number' ? `${value * BASE_SPACING}px` : value;
 
   return typeof spacing === 'object'
     ? spacing.reduce((acc, value, index) => `${index !== 0 ? ' ' : ''}${format(value)}`, '')
